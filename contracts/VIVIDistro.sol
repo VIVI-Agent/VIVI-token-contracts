@@ -375,6 +375,54 @@ contract VIVIDistro is Ownable(msg.sender), ReentrancyGuard {
     }
 
     /**
+     * @notice Execute claim on behalf of a user to a different recipient
+     * @dev Allows admin to help users who lost access to their original wallet
+     * @param user Original address with the allocation
+     * @param recipient Address that will receive the tokens
+     *
+     * Requirements:
+     * - Caller must be owner
+     * - Claiming must be enabled (or can be removed for emergency)
+     * - User must have allocation
+     * - User hasn't already claimed
+     * - User must have CLAIM distribution type
+     *
+     * Use cases:
+     * - Me lost wallet
+     */
+    function claimForWithRecipient(
+        address user,
+        address recipient
+    ) external onlyOwner nonReentrant {
+        require(allocations[user] > 0, "No allocation");
+        require(!hasClaimed[user], "Already claimed");
+        require(recipient != address(0), "Invalid recipient");
+        require(
+            distributionType[user] == DistributionType.CLAIM,
+            "Not eligible for claim"
+        );
+        // Opcionalmente puedes quitar este require para emergencias
+        require(claimingEnabled, "Claiming disabled");
+
+        uint256 amount = allocations[user];
+        hasClaimed[user] = true;
+        totalClaimed += amount;
+        totalDistributed += amount;
+
+        // Transferir a la dirección recipient en lugar de user
+        token.safeTransfer(recipient, amount);
+
+        // Emitir evento especial que muestre ambas direcciones
+        emit TokensClaimedToRecipient(user, recipient, amount);
+    }
+
+    // Agregar nuevo evento
+    event TokensClaimedToRecipient(
+        address indexed originalUser,
+        address indexed recipient,
+        uint256 amount
+    );
+    /**
      * @notice Execute initial airdrop batch
      * @dev Called by factory for immediate distribution
      * @param recipients Array of recipients
