@@ -1,0 +1,36 @@
+{
+  "deployedAt": "2025-05-15T15:06:38.039Z",
+  "contracts": {
+    "factory": "0x71Ec6b037dBA83a7f7D0C50D2D621bB11a8EEC01",
+    "token": {
+      "address": "0x94A47Aa810E85190Fed418892EcbD68D5f463Ff4",
+      "name": "VIVI",
+      "symbol": "VIVI",
+      "totalSupply": "1000000000",
+      "liquidityAmount": "100000000.0",
+      "distributionAmount": "900000000.0"
+    },
+    "distributor": {
+      "address": "0xDC39a4968292D2d285C86663ec0d4eAf60030373",
+      "totalAirdrop1": "200000000.0",
+      "totalAirdrop2": "15147411.0",
+      "totalClaim": "684852589.0",
+      "airdrop1Recipients": 2,
+      "airdrop2Recipients": 2,
+      "claimRecipients": 107
+    },
+    "pool": {
+      "address": "0x44a2a886fE133AE672DBcdBe14CA0814f47222FB",
+      "token0": "0x4200000000000000000000000000000000000006",
+      "token1": "0x94A47Aa810E85190Fed418892EcbD68D5f463Ff4",
+      "fee": "10000",
+      "positionTokenId": "3033804"
+    }
+  },
+  "deployer": "0xF9A69146A12f4dBCCb95b2bE7ce1e49cc782A2Da",
+  "transaction": {
+    "hash": "0x5da5bf1a02a0ddf756d6193de552a043a190637076738851e84ee526ec9d843f",
+    "block": 30266122,
+    "gasUsed": "15718354"
+  }
+}
