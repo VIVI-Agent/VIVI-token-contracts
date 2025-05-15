@@ -1,0 +1,2060 @@
+{
+  "contractAddress": "0x758e3f895b7b9c1381f65fcf136609e16994d5e2",
+  "tierChanges": [
+    {
+      "blockNumber": 29232874,
+      "tier": "2"
+    },
+    {
+      "blockNumber": 29279598,
+      "tier": "2"
+    }
+  ],
+  "contributorList": [
+    {
+      "address": "0x0560aD187f6a0CaDDaC63C6f64d57980c0E97e92",
+      "totalAmount": 0.92,
+      "contributonAmountWei": "920000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.92,
+          "blockNumber": 29233755,
+          "tier": "2",
+          "txHash": "0x703b389d6bc1fc730dd05686e023dd4cbdb9089b8484c644d1ff432699d1bd50"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x50EF9B703792E7cF1b20DbD53BCc31AF65Fe6Ccd",
+      "totalAmount": 0.5,
+      "contributonAmountWei": "500000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.5,
+          "blockNumber": 29233774,
+          "tier": "2",
+          "txHash": "0x17a134bd287d9e3b31fed34c385b747c1e0899bca0437986087d15a545739022"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0xA62E34429C7AC3Bb8ca43f6c570A7B7E7E3e5543",
+      "totalAmount": 0.48,
+      "contributonAmountWei": "480000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.48,
+          "blockNumber": 29233886,
+          "tier": "2",
+          "txHash": "0x17ebc6693221151ff34e0d9093fda555e0a6e870a2f4b3b482a1154ff9c0c624"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x9361df243e0843ff8ECb4b41F11741aeCC279F1E",
+      "totalAmount": 0.62,
+      "contributonAmountWei": "620000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.62,
+          "blockNumber": 29233920,
+          "tier": "2",
+          "txHash": "0x7ee1abd8a10018d4b5a368c29404d2207a4c04a1246c10c0ea3c4008c3e23bad"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x0d1843DcfcCD5940AC402AC4C1c08632727F8d78",
+      "totalAmount": 0.049999999999999996,
+      "contributonAmountWei": "50000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.0457,
+          "blockNumber": 29233942,
+          "tier": "2",
+          "txHash": "0x19e7be4bcd5b3510ae4a0f9e2c711aaaf99e1ea6ac7bd3e9d1bcbbdd2ee8d76a"
+        },
+        {
+          "amount": 0.0043,
+          "blockNumber": 29234188,
+          "tier": "2",
+          "txHash": "0x30d879f526a59ec88bb8fd8b1c63b603f1a86ebc7cd669392c53af2db5903caa"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x6906E356A6710f0cA7823815b81bc866F34f9B03",
+      "totalAmount": 0.12,
+      "contributonAmountWei": "120000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.12,
+          "blockNumber": 29233957,
+          "tier": "2",
+          "txHash": "0x35658d1e44924ac4c5c7810c002c67699b0e5e5c108251995d4838ec16e61dfa"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0xE5678F8659d229a303ABecdD0D0113Cf1F4F83aE",
+      "totalAmount": 1,
+      "contributonAmountWei": "1000000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.438,
+          "blockNumber": 29233996,
+          "tier": "2",
+          "txHash": "0x754cddde667937f675c76bbe017de096012fd464d4d57db7e80726170fd8cfda"
+        },
+        {
+          "amount": 0.2,
+          "blockNumber": 29234453,
+          "tier": "2",
+          "txHash": "0xe06239f550f7065286c156d842a6208263cbe4ba507b66342d7db815d4d069ae"
+        },
+        {
+          "amount": 0.22,
+          "blockNumber": 29235375,
+          "tier": "2",
+          "txHash": "0x04aa74d94cf84af80e59a5f23f0eab0a4894f0a740651e61f23678d13f7be2a1"
+        },
+        {
+          "amount": 0.142,
+          "blockNumber": 29236066,
+          "tier": "2",
+          "txHash": "0xab50f15032e0fe8748d3f9c76e9dd5be66767130857b008513e9a549a2391953"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0xE6b058415069869693b67A679C2F0242c2429D92",
+      "totalAmount": 0.077,
+      "contributonAmountWei": "77000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.077,
+          "blockNumber": 29233998,
+          "tier": "2",
+          "txHash": "0x909435f676c15c53a2ffe31dcf5fe70672effeaf9286e050a292ed57b59c5c4d"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x6b9b1F8dF9EEADbb983971E4c542Fc61e43dc81e",
+      "totalAmount": 0.1,
+      "contributonAmountWei": "100000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.1,
+          "blockNumber": 29234029,
+          "tier": "2",
+          "txHash": "0x9a403c8f6f7e5972c3a17609e928becda524738999c693fa92c5b41ab218f793"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x8Edbfe3C9A9156f0BfBE9b333FF0220DAABF182D",
+      "totalAmount": 0.4,
+      "contributonAmountWei": "400000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.4,
+          "blockNumber": 29234071,
+          "tier": "2",
+          "txHash": "0x45f8f4b2e2637829d6668a27c5475d1c46bcd1039785f387f6cbf8e64169cab4"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x6666b5eb4881c61B2E1dFE5Dccaf8d2386316666",
+      "totalAmount": 0.14,
+      "contributonAmountWei": "140000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.14,
+          "blockNumber": 29234078,
+          "tier": "2",
+          "txHash": "0xe314e6ea3bde0f36486c589495c04b84a9ec091a93e8dc110141b3c87eecba29"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x6df4162f062AD179c969E83782bfbC6389063258",
+      "totalAmount": 0.05,
+      "contributonAmountWei": "50000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.05,
+          "blockNumber": 29234158,
+          "tier": "2",
+          "txHash": "0x576b23696111b096e9af3d7957bf7bc0ab357049da22af1d4be652a9790103db"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0xCEbBAc195f96C39d818BcDabF814a41CC74E92b7",
+      "totalAmount": 0.23358,
+      "contributonAmountWei": "233580000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.225695,
+          "blockNumber": 29234258,
+          "tier": "2",
+          "txHash": "0x10d17f13358c171be84e9b8213304f520640da973395182d25c9f42f10c552f3"
+        },
+        {
+          "amount": 0.007885,
+          "blockNumber": 29235166,
+          "tier": "2",
+          "txHash": "0xadb76fc37e68364946febd9fd03add76575f94eed138cb72c51d62ac4adcaca1"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0xB258EaC61c00D585002EB406ba477907441cCc6a",
+      "totalAmount": 0.06,
+      "contributonAmountWei": "60000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.06,
+          "blockNumber": 29234287,
+          "tier": "2",
+          "txHash": "0xab51a4da3f7b5c43c2c00bb23fca17298a7d3c9ca73c992cf14f11335fd9966a"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x5e3eF1b0cDb4ecE35625900f5306b5457967060a",
+      "totalAmount": 0.4,
+      "contributonAmountWei": "400000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.25,
+          "blockNumber": 29234393,
+          "tier": "2",
+          "txHash": "0x0af3a6389b422ef6b10144c840ac814cd14359e395c3090b93a127e01c65d129"
+        },
+        {
+          "amount": 0.15,
+          "blockNumber": 29234627,
+          "tier": "2",
+          "txHash": "0x98477c0178d6265de37e45a56af1d4ded944ecf496f66c67ba271fc1af8c1ea8"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x2dB34f8dC7d78020e29c99A176E5973148469068",
+      "totalAmount": 0.1,
+      "contributonAmountWei": "100000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.1,
+          "blockNumber": 29234514,
+          "tier": "2",
+          "txHash": "0x8ba59097da8f4935e7b9e5d9ce8a5ac0f8833827600932413e4901b7a1a310fe"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x4Ca7eF26e4e9BEafD46A4234593B32d5DF01134B",
+      "totalAmount": 0.5,
+      "contributonAmountWei": "500000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.5,
+          "blockNumber": 29234588,
+          "tier": "2",
+          "txHash": "0x16e5e494d0d44455f051acc44fa0e2f0f5953dc178984c2b8589afb5ace6008a"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x317cbb8a463A6baf78C2E979c62EE0379172A893",
+      "totalAmount": 0.085,
+      "contributonAmountWei": "85000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.085,
+          "blockNumber": 29234591,
+          "tier": "2",
+          "txHash": "0xd8332636d22883b6e55ab49b687e89a6a6fb563b1b3d142a82dbce4f6acf3443"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0xcBB3F54e5bF29bC617947551A749394DBb9fe1De",
+      "totalAmount": 0.122,
+      "contributonAmountWei": "122000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.122,
+          "blockNumber": 29234602,
+          "tier": "2",
+          "txHash": "0x6f01ecd7fa99b3385e0cf7f6d68e4576b8eb87d989aa14921f3301cb4fc6fac7"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x639E1D5079838f5f4088EE559aBf2259d1Ee7354",
+      "totalAmount": 0.1,
+      "contributonAmountWei": "100000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.1,
+          "blockNumber": 29234796,
+          "tier": "2",
+          "txHash": "0x73b08929dea95de028bf430fd687d5b5ed85a7bc5f5d3b92e9157987f09471a2"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0xFba9771FA557Bc12a5187b68118a76C3E0e62820",
+      "totalAmount": 0.49,
+      "contributonAmountWei": "490000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.49,
+          "blockNumber": 29234888,
+          "tier": "2",
+          "txHash": "0xdfbcdfa4d914f78ce06e1550fb650c836fc68358abda14eb7e8ddca1cb4c33c6"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x89867f559875441A8ce49376a47df644a8fB0900",
+      "totalAmount": 0.2,
+      "contributonAmountWei": "200000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.2,
+          "blockNumber": 29234963,
+          "tier": "2",
+          "txHash": "0xd72aa0a1569c30d8153960735be777a47e26b19253227489052d830333974a17"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0xcAe3e76572c6838b14E17CE770E25eCfDe129690",
+      "totalAmount": 0.5,
+      "contributonAmountWei": "500000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.5,
+          "blockNumber": 29235121,
+          "tier": "2",
+          "txHash": "0x316562d14b05bff55cd634cf7cc3c708dddf36763806372d9fd3a12663cbbd88"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x9b10392A14Be669f88be863D463CB6A11DEAB228",
+      "totalAmount": 0.25,
+      "contributonAmountWei": "250000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.25,
+          "blockNumber": 29235207,
+          "tier": "2",
+          "txHash": "0x0763cf0dfce2c1992e43e6495f9e9560c23e4406debaf29b588e2101173f401e"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0xc7C05bCeFF5A72AA663a95f607A26c6d64FBc740",
+      "totalAmount": 0.104,
+      "contributonAmountWei": "104000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.104,
+          "blockNumber": 29236958,
+          "tier": "2",
+          "txHash": "0x2cbf131a20f23a8503ae75d978209f43627e9f45a58a66e49b4f392650cc653f"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x16696bF83E82B57aCF86aAa306464fF6f27B3262",
+      "totalAmount": 0.05,
+      "contributonAmountWei": "50000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.05,
+          "blockNumber": 29237565,
+          "tier": "2",
+          "txHash": "0xdb91a775709d710fc55071aeb90589a904f04a72f89943613c3d1805256bb2c0"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0xd5f5A179D770EF1961ddD43964a3229C942339F5",
+      "totalAmount": 0.33,
+      "contributonAmountWei": "330000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.33,
+          "blockNumber": 29238173,
+          "tier": "2",
+          "txHash": "0xb39ae202ec5f9676402bb0cd82c47add8af82a88bade73be309a4f41ea0c2330"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x0c2f35E357Be534aC03607C4F92F34773A982B3b",
+      "totalAmount": 1,
+      "contributonAmountWei": "1000000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 1,
+          "blockNumber": 29238507,
+          "tier": "2",
+          "txHash": "0xd35c23800856d1f9668b0e087812cc4bedb9c77f3573c488bf1abc986afc8c75"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x604c9554ea818F903aeD6f4239B4f96EDbB8c244",
+      "totalAmount": 1,
+      "contributonAmountWei": "1000000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 1,
+          "blockNumber": 29238531,
+          "tier": "2",
+          "txHash": "0xce7e321038439d4709cb91bbbd3af4e7c70b3985ba24bcd52388d5564d70f0ac"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0xE12Dc096B2266Df3546Ae4c92da95993b8a1ACD1",
+      "totalAmount": 1,
+      "contributonAmountWei": "1000000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 1,
+          "blockNumber": 29238930,
+          "tier": "2",
+          "txHash": "0x4fb5490f54f2baddc080575f0658f283cb2fb2d17269e1ea834373b23faa84f3"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0xeD2d67F66d72651d0c8AC18590864aC9aA87fd97",
+      "totalAmount": 1,
+      "contributonAmountWei": "1000000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 1,
+          "blockNumber": 29239018,
+          "tier": "2",
+          "txHash": "0xfef56a3ed6807af9683b5ede3b16d7d4ebb01630a699054e9ec7d64e1a483df5"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0xA47b31690eCA4baDB02CA78B2f90A04AB1F7E9F6",
+      "totalAmount": 0.1,
+      "contributonAmountWei": "100000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.1,
+          "blockNumber": 29239174,
+          "tier": "2",
+          "txHash": "0xa3eddad120521a06b0a825147e6edd52770a68b716bc5c6574c98cb659b4792f"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x459e213D8B5E79d706aB22b945e3aF983d51BC4C",
+      "totalAmount": 1,
+      "contributonAmountWei": "1000000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 1,
+          "blockNumber": 29240048,
+          "tier": "2",
+          "txHash": "0x93d87a4be919e249013e74b7f910063e5d710c42307eeb2d4a68885136367a5e"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0xe05df2dDb1396b7244E28710918d52650678B4A5",
+      "totalAmount": 1,
+      "contributonAmountWei": "1000000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 1,
+          "blockNumber": 29240566,
+          "tier": "2",
+          "txHash": "0x1ea800cbab686c9982e517d62980304614f366b1e949e5e18e5ab94f90c5a498"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x9Dd021AB76BA52177e4Bd2792Db6E0Dd508712F5",
+      "totalAmount": 0.58,
+      "contributonAmountWei": "580000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.58,
+          "blockNumber": 29240676,
+          "tier": "2",
+          "txHash": "0x392af1245acf23ac76866b512888dbfbfe84f8c0c1bc4652b4d2cace96bd3650"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x5942d5B9549e83F244E465F47883C80631957Fc5",
+      "totalAmount": 0.05,
+      "contributonAmountWei": "50000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.05,
+          "blockNumber": 29240763,
+          "tier": "2",
+          "txHash": "0x5c5eff92b087bc82b434deb3f6dd0ac61631da0b18e1faaa1b36c886226c9fe8"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x8e0CD8e1A0839fc8F363B2419e4DD260c1245a44",
+      "totalAmount": 0.31,
+      "contributonAmountWei": "310000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.29,
+          "blockNumber": 29242887,
+          "tier": "2",
+          "txHash": "0x759dee7cf55a8b8f96c827675924323205bc8d4e8b52adba0d1f6f1bdd7fbcc4"
+        },
+        {
+          "amount": 0.02,
+          "blockNumber": 29246896,
+          "tier": "2",
+          "txHash": "0x7d3a88fed1477f605dabd82a5a39c071bef3606c6e846bc7edb43bf8774b9010"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x3E7d7d75ff498F8f354AAd6796c07100f22BfEeF",
+      "totalAmount": 0.05,
+      "contributonAmountWei": "50000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.05,
+          "blockNumber": 29242905,
+          "tier": "2",
+          "txHash": "0x6a67b07eefc778b82eb50b992f510835e3370f47169d61dc08f53c50e2798eb5"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x38E7B29f0aBB28ddd8Db78327d306020fc444BCB",
+      "totalAmount": 0.33,
+      "contributonAmountWei": "330000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.33,
+          "blockNumber": 29243053,
+          "tier": "2",
+          "txHash": "0x990a709054a1953144531b5cf2bf1d4dc185002b4d7bcfc2f6d64349470598f0"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0xcE64877901d356c743F6D9011ec5790D4C9334B9",
+      "totalAmount": 0.33,
+      "contributonAmountWei": "330000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.33,
+          "blockNumber": 29243217,
+          "tier": "2",
+          "txHash": "0x4576152f54a45711917a786088a589ca0e1a6824aa3914067a528eb7cc9bd381"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x11C8921a1f37fe15615d001e8dDc3883f2232294",
+      "totalAmount": 0.33,
+      "contributonAmountWei": "330000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.33,
+          "blockNumber": 29243269,
+          "tier": "2",
+          "txHash": "0xca71925c2ff23cd8f3c3e2faff730c910efeebdb192306abb35a4aff3b7ac99b"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0xCEe77A776ae25Ac824aDde366f923F4d1dd88942",
+      "totalAmount": 0.296444,
+      "contributonAmountWei": "296444000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.247746,
+          "blockNumber": 29243286,
+          "tier": "2",
+          "txHash": "0x65cc3f67f088ca803cc037c4a6a0f74a65b1f0dfd0d03d2483ff6edc3ff7af64"
+        },
+        {
+          "amount": 0.048698,
+          "blockNumber": 29270283,
+          "tier": "2",
+          "txHash": "0xbfc83f1b11011f3b1aec934ccfa265028b50e51df0a4b39d5be2ce31a6da0df6"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x8D82E06A97A72efA3bbc950168C5eD37313306F5",
+      "totalAmount": 0.14,
+      "contributonAmountWei": "140000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.14,
+          "blockNumber": 29243290,
+          "tier": "2",
+          "txHash": "0x4948142172e435f9ace20b99c233cb1c2013aebdb4c35e62fb6c2310405b1ef4"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x1B762FfC9cd93Ff6567DBEf6dbdb9946e12bB8D4",
+      "totalAmount": 0.06,
+      "contributonAmountWei": "60000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.06,
+          "blockNumber": 29243418,
+          "tier": "2",
+          "txHash": "0x96d196c20efc6ec8f889049fae314e6ae12fd358eb448331a0b75bb996f89b83"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x6fd760fCfC39853e49BcDb2FA4151071FA6a880c",
+      "totalAmount": 0.1,
+      "contributonAmountWei": "100000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.1,
+          "blockNumber": 29243657,
+          "tier": "2",
+          "txHash": "0xdfc64aa373548850b66dbcc5090deb32023e2e174faeac2d9fc298076eb94c96"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x4D720811E22aCC49Ae8f6C3B205A6906685bF337",
+      "totalAmount": 0.327,
+      "contributonAmountWei": "327000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.327,
+          "blockNumber": 29243871,
+          "tier": "2",
+          "txHash": "0xe7c159385d35ef72ce6f394db116d6fd95c96a468965af778652fd4c0c34b71f"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0xc8D2E27763BD6135aF390d3Ec44ddf223604BEC8",
+      "totalAmount": 0.061,
+      "contributonAmountWei": "61000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.061,
+          "blockNumber": 29243946,
+          "tier": "2",
+          "txHash": "0x4b3454b2732651f3b28df0b79b753272fff1f9fc4e8f4a8ec68efd43f0119c38"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0xf89F16159cB672Db2a2211A2d8987bF6C8ceaAE6",
+      "totalAmount": 0.012,
+      "contributonAmountWei": "12000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.012,
+          "blockNumber": 29246528,
+          "tier": "2",
+          "txHash": "0xd4daebaba8017a3c1db12e1699d886f85801a9b7303644b892523bbb4cc43bff"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0xAA9530d112237E67fC05bcA732c2c83D37cCd043",
+      "totalAmount": 0.09,
+      "contributonAmountWei": "90000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.09,
+          "blockNumber": 29247546,
+          "tier": "2",
+          "txHash": "0xb9ea5fc43eb851e2664c5b1348ec804d0fbb7776b57d668644f48143c2d51b46"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x9cdec6eEe54044735Ab461c81bda831d3178da19",
+      "totalAmount": 0.15000000000000002,
+      "contributonAmountWei": "150000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.025,
+          "blockNumber": 29249047,
+          "tier": "2",
+          "txHash": "0xdc8f2939af2a0bc9db9492b537ea8f6e899850a725534bc32c246d5f45648f86"
+        },
+        {
+          "amount": 0.025,
+          "blockNumber": 29249401,
+          "tier": "2",
+          "txHash": "0x20438c6f0ef7285d02a3a8bda732bb7860e116eaf04cae1ecb50d1bb09319741"
+        },
+        {
+          "amount": 0.05,
+          "blockNumber": 29253808,
+          "tier": "2",
+          "txHash": "0x292c22c236025c5e23dd1c35d10302aac41f424659c6a57a8f734824e3c6f497"
+        },
+        {
+          "amount": 0.05,
+          "blockNumber": 29255552,
+          "tier": "2",
+          "txHash": "0xcc65ab14bd9269e38c34eaf210e0f867f05c8b1dd8a2e6e89fc5c630bf731a3c"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x7000494797f73caD75d5193Ad60a11897C60c8EB",
+      "totalAmount": 0.09,
+      "contributonAmountWei": "90000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.09,
+          "blockNumber": 29249279,
+          "tier": "2",
+          "txHash": "0x80704038086a157d6c52538ec694f0d22d0ac507651e76f6b125e2297a70123a"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x4CC70fea460F39819D5B0b06c1Ed26903178D9F1",
+      "totalAmount": 0.066,
+      "contributonAmountWei": "66000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.066,
+          "blockNumber": 29250491,
+          "tier": "2",
+          "txHash": "0x1bb01d734ad7ece7dcfb01cc6b9d78c3805ede5ee9525a4b23d5f03b6f7a61d3"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x18388030512c997a1F5dba692Dd682297c387c19",
+      "totalAmount": 0.33,
+      "contributonAmountWei": "330000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.33,
+          "blockNumber": 29252277,
+          "tier": "2",
+          "txHash": "0xa68466f61eca75adf2aeb5a1dcbc14cb8c92d62ee4ca8f4a84d53b06a9950e84"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x4906E9763e9216DE2A7FDcA30301562729bf5925",
+      "totalAmount": 0.1,
+      "contributonAmountWei": "100000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.1,
+          "blockNumber": 29252975,
+          "tier": "2",
+          "txHash": "0x1355a7b1cad8dea7f7dda48b2056c4d4b8b55fe3dd5c5aabda47d4e35e5ac6cc"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0xf5Fa0f11364Cc7695c2E8c3F7C9a7dE3EA2483f1",
+      "totalAmount": 0.128,
+      "contributonAmountWei": "128000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.12,
+          "blockNumber": 29254344,
+          "tier": "2",
+          "txHash": "0x6e570fe668191cb20ef8f238eb7166e61f4994378405ae5275366d1615025b9b"
+        },
+        {
+          "amount": 0.008,
+          "blockNumber": 29254368,
+          "tier": "2",
+          "txHash": "0xe53a14faeedacb3ec1cfb8b215d9f1873917ebaa40a1b42501a1edb67ad9abcb"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0xDf89683C34AB5665a8F48723977b5212622a616c",
+      "totalAmount": 0.33,
+      "contributonAmountWei": "330000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.33,
+          "blockNumber": 29257623,
+          "tier": "2",
+          "txHash": "0x5ceada046d50d569ee95b2a190f4925c64cf445f459c2ee678413f74f3c36070"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0xf832d42d9ce5EAe55a9ee7A1B72e4a426486E65d",
+      "totalAmount": 0.02,
+      "contributonAmountWei": "20000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.01,
+          "blockNumber": 29258124,
+          "tier": "2",
+          "txHash": "0x39b8108a916bc86b5b8367181c094be051c018e88f78eceeb99cf3f274cdc8d7"
+        },
+        {
+          "amount": 0.01,
+          "blockNumber": 29258132,
+          "tier": "2",
+          "txHash": "0xa9dc1036663f5498eebdcab090d5e29704da4ddb5eb99d8871d74e4b943c5b83"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0xc54F5C4EEf9864e534d4CB25774B65c072Bb3578",
+      "totalAmount": 0.33,
+      "contributonAmountWei": "330000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.33,
+          "blockNumber": 29258173,
+          "tier": "2",
+          "txHash": "0xba42d23b3f74b9de5bd4ee17465ccfaa2814c8075b8bd2bcc71ed748f1858fae"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x60D3D24D6f487d988EdE2e02231c93086196Bb8d",
+      "totalAmount": 0.1313,
+      "contributonAmountWei": "131300000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.1313,
+          "blockNumber": 29261512,
+          "tier": "2",
+          "txHash": "0x316a00ba83346b9fc001033d709eb7d40b6f098cd356149aa592eab2c601ce0a"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x30b4a5477314e3FbD0C22D6Afcd71EeCF4d9D22F",
+      "totalAmount": 0.33,
+      "contributonAmountWei": "330000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.33,
+          "blockNumber": 29275675,
+          "tier": "2",
+          "txHash": "0xc8fcd2b758bcbd0fd40a999bee5c71d3f444e0f9af97574e428f3eabb0d44157"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x6B4576fBCEA136213df7696741132caD36fc7C25",
+      "totalAmount": 0.33,
+      "contributonAmountWei": "330000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.33,
+          "blockNumber": 29276834,
+          "tier": "2",
+          "txHash": "0x29ec363655c073a7c1fa369a099bbaa9f9de8226678119798458fb982ccd0370"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x8260f328083942B8A1Ce35BC28CC374E35659475",
+      "totalAmount": 0.33,
+      "contributonAmountWei": "330000000000000000",
+      "tier": "1",
+      "contributions": [
+        {
+          "amount": 0.33,
+          "blockNumber": 29278329,
+          "tier": "2",
+          "txHash": "0x60bb01590a37a393fad4580c96b15720e7140354993100a156fc324390a602e6"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0xbA4d40bBf3fae332ED1Ab3d78a6CE5DE7f3b1818",
+      "totalAmount": 0.1,
+      "contributonAmountWei": "100000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.1,
+          "blockNumber": 29279933,
+          "tier": "2",
+          "txHash": "0x92565a4b71def21155ae8b9e36972598ab3d471a106c04d9c7e6ad44cf703cb2"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0x21AFfB908270C20C39aae5EDD8bE6E83eF3aeFBB",
+      "totalAmount": 0.035084,
+      "contributonAmountWei": "35084000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.035084,
+          "blockNumber": 29280294,
+          "tier": "2",
+          "txHash": "0x812286e2a36339431a99fc4a6356c3837dda4957bbf6a47779f03706695c9730"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0x3C2a19DB5BEb0036818c8A4E8607f79246a97d83",
+      "totalAmount": 0.08,
+      "contributonAmountWei": "80000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.08,
+          "blockNumber": 29280431,
+          "tier": "2",
+          "txHash": "0x52e9ac43d2db75cf1df225f7e617c83a1894a285a4f165fab148fcdeb7d0c613"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0x61c23b9aEfec72218b962C345cA6a77EF830B969",
+      "totalAmount": 0.011,
+      "contributonAmountWei": "11000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.011,
+          "blockNumber": 29280845,
+          "tier": "2",
+          "txHash": "0xfce17007831b5d3f94bb77b11b895ee2add149975ae81dc5037fe6218e133859"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0xC5348c3bD56c6dab40303e5bAD309Ee4C1a96221",
+      "totalAmount": 0.002208,
+      "contributonAmountWei": "2208000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.002208,
+          "blockNumber": 29291872,
+          "tier": "2",
+          "txHash": "0x806eb86704b9ad91b9c42064de0810ed41b66243f58cf234fa4c53ef9747f88b"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0x57062D5f05F141fbf918073480eECBb11D58D76B",
+      "totalAmount": 0.2,
+      "contributonAmountWei": "200000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.2,
+          "blockNumber": 29293840,
+          "tier": "2",
+          "txHash": "0xf9dfa73459a50cb4c736ee6b205bd0d107e63ab583b1530bd1ec169c1247c71a"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0x0e8f462D620043aD5c2dDcb7275571D192AAcd08",
+      "totalAmount": 0.16,
+      "contributonAmountWei": "160000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.16,
+          "blockNumber": 29295376,
+          "tier": "2",
+          "txHash": "0x612040639381d1d3f92651c374e1748d3f157cd3b1054c36e9f89f86fea17fab"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0x4B46aE1BAb40078d98E216C7E2888a37961c5F95",
+      "totalAmount": 1,
+      "contributonAmountWei": "1000000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 1,
+          "blockNumber": 29301772,
+          "tier": "2",
+          "txHash": "0x4fe3a089c4e966511abebea3767ac2673a24ff69148056175ec700a792710ae5"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0x00da8B1Cd33Cb06F0DE21ef670afD7979aed5651",
+      "totalAmount": 0.7,
+      "contributonAmountWei": "700000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.7,
+          "blockNumber": 29302127,
+          "tier": "2",
+          "txHash": "0x62a624e202671420f21c3c9b594d9899ac7170dd8396580a56fbb5e2e0cc25b2"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0x792bd1E1Fa1dAFE638CdaC4E1e8FbFF1075cCEfe",
+      "totalAmount": 1.4,
+      "contributonAmountWei": "1400000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.25,
+          "blockNumber": 29315213,
+          "tier": "2",
+          "txHash": "0x52df2f10905e9d865d61780992a1cf93e447904fa5e5ffcd86a1582345c14311"
+        },
+        {
+          "amount": 0.2,
+          "blockNumber": 29315359,
+          "tier": "2",
+          "txHash": "0xa7bf3d721596c42ffccb3420c6e1a945677630f70c9b912d86fcb96d7f33e230"
+        },
+        {
+          "amount": 0.1,
+          "blockNumber": 29331877,
+          "tier": "2",
+          "txHash": "0xd62a4c4c31e9523a4ea03df8af120e30728fb96948d0a85f29889dc580f77d86"
+        },
+        {
+          "amount": 0.15,
+          "blockNumber": 29331981,
+          "tier": "2",
+          "txHash": "0xfdbcedc20ed6d2f1b58b0f2978e2ccbafe753de196ce8c638aca596a1c922c1d"
+        },
+        {
+          "amount": 0.1,
+          "blockNumber": 29384204,
+          "tier": "2",
+          "txHash": "0xfbac0b089d34095589d9bc2ff08bfd2468837055bd2bd95192884d978758857e"
+        },
+        {
+          "amount": 0.05,
+          "blockNumber": 29384564,
+          "tier": "2",
+          "txHash": "0x4d25b0ab036a52130cc278f44daaf6644de50e3635a6cc830b01d89197c268d5"
+        },
+        {
+          "amount": 0.15,
+          "blockNumber": 29461890,
+          "tier": "2",
+          "txHash": "0xa59207e1b74d7f566db98549df8b77d6cb89d8c09f765b3330d16f06732e26fe"
+        },
+        {
+          "amount": 0.4,
+          "blockNumber": 29544862,
+          "tier": "2",
+          "txHash": "0xfcd1a58ca5555b40bf509a9176bd9342a63ef12d914f6221637a8bac51d78109"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0x80bc7eD2Ea22994f3757F47689E01870e9775fE9",
+      "totalAmount": 0.01,
+      "contributonAmountWei": "10000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.01,
+          "blockNumber": 29317150,
+          "tier": "2",
+          "txHash": "0x1bae57c69352e7d4baed2c0d22f1470293f7ac2593c5dd4452f54740a1623e76"
+        }
+      ],
+      "isWhitelisted": true
+    },
+    {
+      "address": "0x1151E142c4D845486a8B3d8fC9BE1BeD98B31727",
+      "totalAmount": 1.61,
+      "contributonAmountWei": "1610000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.01,
+          "blockNumber": 29446216,
+          "tier": "2",
+          "txHash": "0x66b6bd77201345daec29b93e4429b7494930e7817054deef9f52e3a9d7f2e357"
+        },
+        {
+          "amount": 1.6,
+          "blockNumber": 29446313,
+          "tier": "2",
+          "txHash": "0x1b22517db5074c06517f9c7fd015701ffa3c0c1f3a7f5b09646ced74a5de9354"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0x341ae7A0aE75C7378F2bac7D829c5030824df101",
+      "totalAmount": 0.0011,
+      "contributonAmountWei": "1100000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.0011,
+          "blockNumber": 29457552,
+          "tier": "2",
+          "txHash": "0xf8d008eea9045f1fb2fdd5bb44f712a1b707469e5a155758e843a910517e2977"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0xFcc92026ff27764D5E535c2975Ac559263D6a941",
+      "totalAmount": 0.308,
+      "contributonAmountWei": "308000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.308,
+          "blockNumber": 29514802,
+          "tier": "2",
+          "txHash": "0x2fc974355637d89ccbb87bfe208cc587aa174fde6a6d0e6480844f68702be004"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0xB667c5D03B97F0D4c2FFf4954bCf87d7D2B361C7",
+      "totalAmount": 0.1,
+      "contributonAmountWei": "100000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.1,
+          "blockNumber": 29525902,
+          "tier": "2",
+          "txHash": "0xe2606315045d9f7a3829edff3a60ac6fe624f719165bc06e4229566ad40dea6f"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0x2eAcf918Be5fd7F0E18a367a8B722e79450A8718",
+      "totalAmount": 2,
+      "contributonAmountWei": "2000000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 2,
+          "blockNumber": 29544300,
+          "tier": "2",
+          "txHash": "0x5232d6fafd01f6b53799dd1d32adf374665e6cac717090d59191b1261ffb1e7b"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0xbf9197cA6116Ad2A14E661A957321Fa4DF8e68c0",
+      "totalAmount": 0.278,
+      "contributonAmountWei": "278000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.278,
+          "blockNumber": 29545119,
+          "tier": "2",
+          "txHash": "0x5e661b9c44fa4974bde6ce523a43fb1b1a6cf583f6d5a0f3f6cdc4917250d255"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0xf777094BA238bA665C7b2cb44F70C9D11a72ac55",
+      "totalAmount": 0.7,
+      "contributonAmountWei": "700000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.7,
+          "blockNumber": 29546148,
+          "tier": "2",
+          "txHash": "0x121634293998c6f1c9909d8624df88a37b91e7ef240fff529fa71af1e27e80e0"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0x5C4474eA07EFEA326cb23c874848E323Fa120702",
+      "totalAmount": 0.1,
+      "contributonAmountWei": "100000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.1,
+          "blockNumber": 29546797,
+          "tier": "2",
+          "txHash": "0x5800a9f06cc22a3532e2bfc8cc64c09ec713f71be8c6ca164927e72fd74e7b84"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0x2D387086c0E452b83B279d0110BFF6862e2A7BB2",
+      "totalAmount": 0.05,
+      "contributonAmountWei": "50000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.05,
+          "blockNumber": 29547110,
+          "tier": "2",
+          "txHash": "0x04e272b892401218c68243556f72d128245f04118657f8ffeb85b9ce4d94871d"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0x2a18529271cecBBaedc33D2a31C2B512A2F14056",
+      "totalAmount": 0.006,
+      "contributonAmountWei": "6000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.001,
+          "blockNumber": 29547554,
+          "tier": "2",
+          "txHash": "0xadbfeee273025a94dc45867f0b44573819f45248c965fb5e2503c36d93ec6f10"
+        },
+        {
+          "amount": 0.005,
+          "blockNumber": 29547572,
+          "tier": "2",
+          "txHash": "0xe9da3b79c4a39f63de3e97149085c26771d18ad8b838c5b4d6a68b3d90a81e08"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0x33440D529221C111DEa3DFB6a888D651C3980E6a",
+      "totalAmount": 0.11,
+      "contributonAmountWei": "110000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.11,
+          "blockNumber": 29548877,
+          "tier": "2",
+          "txHash": "0x0410c28f90732fe02f811e7a2470451a2378ff1038d2722d701791ec3fde73b4"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0xee3Caa136D8FA7cBc41dfF619Ce5c65986c1167c",
+      "totalAmount": 0.077,
+      "contributonAmountWei": "77000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.077,
+          "blockNumber": 29573489,
+          "tier": "2",
+          "txHash": "0xca5d2fb2de2d12fb31fb63e7d818f87a919e16e6ca11a04bea8a48360a98c452"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0x53DDD393960dD6f276e0B3D1B1558dD606c9B844",
+      "totalAmount": 0.02,
+      "contributonAmountWei": "20000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.01,
+          "blockNumber": 29574110,
+          "tier": "2",
+          "txHash": "0x37cf8255eef209402e866a5d228c3e7974cff45893c25c6a36ba2740cb1ee4c3"
+        },
+        {
+          "amount": 0.01,
+          "blockNumber": 29581920,
+          "tier": "2",
+          "txHash": "0x6d598b7cf23269f6b927874b8827577ab6ecc2abdbf5e6c74cd2ae061aafabd4"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0xC30CF256dFC731193A4fe2b02c89Bf1815ec70a5",
+      "totalAmount": 1,
+      "contributonAmountWei": "1000000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 1,
+          "blockNumber": 29574375,
+          "tier": "2",
+          "txHash": "0x3e522d955ecfffeb5309a27d128b41ee390f6a5cd8c59e51fa20b9bb512f0dcd"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0xD9cb24C08e41c7256Ba3DEBA4469446B430E8c8A",
+      "totalAmount": 0.373,
+      "contributonAmountWei": "373000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.373,
+          "blockNumber": 29575144,
+          "tier": "2",
+          "txHash": "0xeb1415f9aa3eebfe98878d1a47dfd0f1c5978bc469bd6a574afebaeb1b7de125"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0xf557BaAC868D67FDCac1A1E8215045926E9eB778",
+      "totalAmount": 0.01,
+      "contributonAmountWei": "10000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.01,
+          "blockNumber": 29575543,
+          "tier": "2",
+          "txHash": "0x6c73578bd5a625dce0d079529a6909af21c9ad7a75bd615ae8ee84362c7d227e"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0x7cd7d437CCB25e7d4e2f017a85b9cA80BAF117Ce",
+      "totalAmount": 0.004,
+      "contributonAmountWei": "4000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.004,
+          "blockNumber": 29576304,
+          "tier": "2",
+          "txHash": "0x0b79bd983bcc05e6cea89ef0133ea4401dc240e526b1e3bd0e323a81221c9d6f"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0xD442C0eff7aD7E558C915279f60756fA91Ec679A",
+      "totalAmount": 0.11,
+      "contributonAmountWei": "110000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.11,
+          "blockNumber": 29576555,
+          "tier": "2",
+          "txHash": "0xd9aa5037650e29135f45bc18c8e3516e8a7455369f52661db7b1f6cb4d7a78a5"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0x8924afad8d1b8C435fA41e209E45e3B195E5cB9c",
+      "totalAmount": 0.1,
+      "contributonAmountWei": "100000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.1,
+          "blockNumber": 29576738,
+          "tier": "2",
+          "txHash": "0xf3b205af64934b47f97efd1cf18816aa36ddf316415fd7d1f76514c1c9e8b4ac"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0x641d4A476296823138dcd422798E7d950DC22E26",
+      "totalAmount": 0.052,
+      "contributonAmountWei": "52000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.052,
+          "blockNumber": 29576994,
+          "tier": "2",
+          "txHash": "0x155838c626f73a2db815cee9cbe7009bf0a7f10be1f2261befb863823009e6a5"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0x548e8B77592b2E2a56edbD2D475A627CEA831d08",
+      "totalAmount": 0.004,
+      "contributonAmountWei": "4000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.004,
+          "blockNumber": 29579075,
+          "tier": "2",
+          "txHash": "0x35d602b323fd77bb900347720c95adde872c381c324b981c29fd0420938b6eb0"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0xb6A15e2112310a6Da78Ab1Da29d077B4df1f7328",
+      "totalAmount": 0.05,
+      "contributonAmountWei": "50000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.05,
+          "blockNumber": 29579157,
+          "tier": "2",
+          "txHash": "0x62374af0e8cbfb3cf3b1db6327ae03a0efebc90c927340eb1a0101f61a13c06e"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0x42018d788248F2351Dcff46EFaB058F568aD4242",
+      "totalAmount": 0.1,
+      "contributonAmountWei": "100000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.1,
+          "blockNumber": 29579501,
+          "tier": "2",
+          "txHash": "0x4568291e43c319e0bbf4fbe5f75df511516ab8c28344385516b64f36457249e8"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0x4Bf891E8fddd955AC90c437e8F0c6Fa814067566",
+      "totalAmount": 0.15,
+      "contributonAmountWei": "150000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.15,
+          "blockNumber": 29579588,
+          "tier": "2",
+          "txHash": "0x5384286bded12e33fe2e18a499d34da9bb9da974e904da96dc0055f0257e067f"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0xF7deC381A89c9D9085df1D1E40412629DE6C92c2",
+      "totalAmount": 0.055,
+      "contributonAmountWei": "55000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.055,
+          "blockNumber": 29581544,
+          "tier": "2",
+          "txHash": "0x5cc353da41c7c5127527d5ae81ae02907571714554f53403c55730ad61a166b4"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0xe3e0F2146DA732cE6f92c025C961cecdf78E38eb",
+      "totalAmount": 0.25,
+      "contributonAmountWei": "250000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.25,
+          "blockNumber": 29581744,
+          "tier": "2",
+          "txHash": "0x0bb9909b53ce0b0b10e0b32d91d874e1d76e4ce6db278970eaf921bbe284a7ed"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0xDDc23d34ea2f6920d15995607D00dEF9478dEd6d",
+      "totalAmount": 0.21,
+      "contributonAmountWei": "210000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.21,
+          "blockNumber": 29581861,
+          "tier": "2",
+          "txHash": "0xa1e24733a6cb54f057b10cc607f73b8ff0d8b6160d29f327f04e49944df31e51"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0x194E9beA4f46667EC86332B96E2BE2247B164Fa7",
+      "totalAmount": 1,
+      "contributonAmountWei": "1000000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 1,
+          "blockNumber": 29583086,
+          "tier": "2",
+          "txHash": "0x8718474c07ca77ce2eb3916cca217a2fdd756ab00ec9ebdde0bcb353b639cd1f"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0x4c8736F7DC3E64295eeb1f53aA900824E7165D5A",
+      "totalAmount": 0.168,
+      "contributonAmountWei": "168000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.168,
+          "blockNumber": 29583236,
+          "tier": "2",
+          "txHash": "0x736c51bb23722e109813ea11b8c00a58128679b4242fa379000492d1db3cbc55"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0x96289E0c5e166343915352377E13E94F46815Ae1",
+      "totalAmount": 0.01,
+      "contributonAmountWei": "10000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.01,
+          "blockNumber": 29583340,
+          "tier": "2",
+          "txHash": "0xa1e055cee98427553afd9c8ef57c36ac7296f3f4e276f1311eb144956bd4f99d"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0x69f0a0daeF5Db691A23829952D96feC35954E786",
+      "totalAmount": 0.0011,
+      "contributonAmountWei": "1100000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.0011,
+          "blockNumber": 29583588,
+          "tier": "2",
+          "txHash": "0x95ae71cc91f1687be8655dbd7f1bd657a910fd19b43019bf08f0d504d0de26be"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0xe11B294D442cd78289B599EA4cB7eeD585Ca0980",
+      "totalAmount": 1,
+      "contributonAmountWei": "1000000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 1,
+          "blockNumber": 29584120,
+          "tier": "2",
+          "txHash": "0x03d3fab002951e9933e186ad504701a015a867b9a8191e3f8c8a71e79d83a27f"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0x8875D7F6965A4E419E733f760F54bb8073D26054",
+      "totalAmount": 0.385,
+      "contributonAmountWei": "385000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.385,
+          "blockNumber": 29584227,
+          "tier": "2",
+          "txHash": "0x08efc281c1864ecc46401d8500d2b1465ed2c39eaf2001befc59d99c2cef19a5"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0x85DC72549c01059e73fB99F264B43B572adA9b16",
+      "totalAmount": 0.1,
+      "contributonAmountWei": "100000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.1,
+          "blockNumber": 29584405,
+          "tier": "2",
+          "txHash": "0x9fe01ef621b7d1e38a43b82ffdbf35fbf4b018a867faf330a100460d12a99bff"
+        }
+      ],
+      "isWhitelisted": false
+    },
+    {
+      "address": "0xB490366E8549d4d92845B1A837f899f0EdeEc285",
+      "totalAmount": 0.1,
+      "contributonAmountWei": "100000000000000000",
+      "tier": "2",
+      "contributions": [
+        {
+          "amount": 0.1,
+          "blockNumber": 29584469,
+          "tier": "2",
+          "txHash": "0x3e015d9dd97cc512c84f565edde2a89b2baf1ada1f42ce147a1461e6a004c626"
+        }
+      ],
+      "isWhitelisted": false
+    }
+  ],
+  "whitelist": [
+    "0xCEbBAc195f96C39d818BcDabF814a41CC74E92b7",
+    "0x80bc7eD2Ea22994f3757F47689E01870e9775fE9",
+    "0x5942d5B9549e83F244E465F47883C80631957Fc5",
+    "0x6666b5eb4881c61B2E1dFE5Dccaf8d2386316666",
+    "0x4829f85E63934A76AA5F142a75D047aA0a9A3e8A",
+    "0x0560aD187f6a0CaDDaC63C6f64d57980c0E97e92",
+    "0x187661613Dbfdd954e53E0792acd3992f08af5c5",
+    "0x9b10392A14Be669f88be863D463CB6A11DEAB228",
+    "0xE6b058415069869693b67A679C2F0242c2429D92",
+    "0xB258EaC61c00D585002EB406ba477907441cCc6a",
+    "0x4Ca7eF26e4e9BEafD46A4234593B32d5DF01134B",
+    "0x69Ff8B213D16F5084998cc663c5e276d7796142c",
+    "0xFdb6a11aa2956012225f8858c2D8B791c14284fA",
+    "0x7d15C9163FeeFFdda5F8eB68bC616Daf3E12238f",
+    "0x89867f559875441A8ce49376a47df644a8fB0900",
+    "0x4EfD4d1992E6A6503710435cf1156728D05e8c75",
+    "0xDf89683C34AB5665a8F48723977b5212622a616c",
+    "0xb537B6914d38aa946cdFe03F0416966f5d320C5a",
+    "0x90E0a3879228F4d97efc3978eccCe3546A3D0b4E",
+    "0x679c5f96D86f0e4EE3f6f7e48e21bc487a4F35D0",
+    "0x22274576D5D60667e0a040288dE14189a7a76f4F",
+    "0x83E03bfDccE423f9549205F2162381BE80b06A71",
+    "0x0d1843DcfcCD5940AC402AC4C1c08632727F8d78",
+    "0x50EF9B703792E7cF1b20DbD53BCc31AF65Fe6Ccd",
+    "0x5e3eF1b0cDb4ecE35625900f5306b5457967060a",
+    "0x6df4162f062AD179c969E83782bfbC6389063258",
+    "0xc44e159FD3C2Ec71602008E5Fc0dbb7b11327f8D",
+    "0x8Edbfe3C9A9156f0BfBE9b333FF0220DAABF182D",
+    "0x9Dd021AB76BA52177e4Bd2792Db6E0Dd508712F5",
+    "0xcBB3F54e5bF29bC617947551A749394DBb9fe1De",
+    "0x774543e8A824F462F49588D86918c317F73D6f36",
+    "0x3497936DA085f67dFf19a152A44683DA92f7fbdc",
+    "0x3ddBf29773156017248E0dF54559162c28fD06d7",
+    "0x617fCb47Df828C6dc67f14dA88223e6939D7ed94",
+    "0xDA8A9d952653A89CE3da93B377F5D4032D1DE88A",
+    "0x5d7E1E704cEF2796024d154756f9F95ea1567a9a",
+    "0x6906E356A6710f0cA7823815b81bc866F34f9B03",
+    "0x1b0B47beF254299109CBB54eD07304A335b30377",
+    "0xE42E4b0fe9B735E9a23136D8BF592A633B6e5383",
+    "0x2dB34f8dC7d78020e29c99A176E5973148469068",
+    "0xd08D474E5fC4e58b492177032cbF2172bc7077B9",
+    "0x7980b81369BB164662308442b9A9759C0b408BA6",
+    "0xc7C05bCeFF5A72AA663a95f607A26c6d64FBc740",
+    "0xE5678F8659d229a303ABecdD0D0113Cf1F4F83aE",
+    "0x1F6bcfa4a50060F2EE8062fa61CA91C3C7329a11",
+    "0x0b5806a1645F1632284102E12C5739535C038E3a",
+    "0x65cfA52F9Fc3789a00998becA723eC020921e93E",
+    "0x9361df243e0843ff8ECb4b41F11741aeCC279F1E",
+    "0x317cbb8a463A6baf78C2E979c62EE0379172A893",
+    "0xcAe3e76572c6838b14E17CE770E25eCfDe129690",
+    "0xf1a0821a9D107f7Fc0FC72dBDB6bF719F3155E9e",
+    "0x639E1D5079838f5f4088EE559aBf2259d1Ee7354",
+    "0xff522c0Eef889ff8eF7e3D18D58b38E9482b633a",
+    "0x6b9b1F8dF9EEADbb983971E4c542Fc61e43dc81e",
+    "0x2ad4fAaa09d113581d753e4C407cBa2703E87183",
+    "0x50033749f3c8f3458c0DEd60802A0b5A67274430",
+    "0xFba9771FA557Bc12a5187b68118a76C3E0e62820",
+    "0x29290bD72c7E365Ee22D3d3c0489345819A27FC0",
+    "0x4aD3A4cdC277e6aFa2c3b4c21F6C662eFCF36731",
+    "0xb9e8D47625bf01e64ab7C3153AdA8E29086Ff8d5",
+    "0xE12Dc096B2266Df3546Ae4c92da95993b8a1ACD1",
+    "0xB8f627a1aD7eABcD810d32a2722B8E0683Ce4cBC",
+    "0xeD2d67F66d72651d0c8AC18590864aC9aA87fd97",
+    "0xA47b31690eCA4baDB02CA78B2f90A04AB1F7E9F6",
+    "0x0c2f35E357Be534aC03607C4F92F34773A982B3b",
+    "0x604c9554ea818F903aeD6f4239B4f96EDbB8c244",
+    "0xA62E34429C7AC3Bb8ca43f6c570A7B7E7E3e5543",
+    "0xd13Dec702668B911A4F55B81F38089877aE2a73c",
+    "0xe05df2dDb1396b7244E28710918d52650678B4A5",
+    "0x16696bF83E82B57aCF86aAa306464fF6f27B3262",
+    "0xd5f5A179D770EF1961ddD43964a3229C942339F5",
+    "0x2873D45D8E5b3ac553EdB09C064647a15A93aa6A",
+    "0xc8D2E27763BD6135aF390d3Ec44ddf223604BEC8",
+    "0x459e213D8B5E79d706aB22b945e3aF983d51BC4C",
+    "0x8fa84759562491B2b92fA649971a236054f5C413",
+    "0xAb3ec2F97121Fc16DDAB7e3dC8956Fe4907Dc242",
+    "0xA2b2F10A3C542FEd3a53654cca97D34f628f55e3",
+    "0x896efa0ce53d2fedc53C74133C97B7D19041118a",
+    "0x3E7d7d75ff498F8f354AAd6796c07100f22BfEeF",
+    "0x35E55a4227160D4d4f1b1732318d5062f348b354",
+    "0xf8A5cdA43918f3560E3d7B872A42FcCF54851986",
+    "0x1E552185a720F0993339B52d937894f4C4f27712",
+    "0xB506C02F6b5B84e630e21B56347f2ec1a293B29f",
+    "0xeC6a31412aeB209D138747Ff5c3313260E670057",
+    "0x708C5f0F00C4C2085a0Abb3b2f035C33B2AE7f9A",
+    "0x25e2A352478B83dC0DE5d74beC53A8f13d4062B6",
+    "0x993A5c9AaF9D11FA4B43FE8649188B6D73822f0B",
+    "0xf89F16159cB672Db2a2211A2d8987bF6C8ceaAE6",
+    "0x2521E4d3B52036E4fe9f3507b090B654Eace00c1",
+    "0x72Bf53EbD01E2F7831F8ce02Aa4Db4f70A566b94",
+    "0xC8480F441c287cdbE2CE31826302b4D039E97811",
+    "0x48146d0e2222108EfD4C4748c527EAea8e6b9311",
+    "0x4Ade4E108d7487cb69502C71eFeF20dC917cCb9b",
+    "0xffAcF99BCda5f2599C1891cA7117a272Fb8fC1f8",
+    "0xD1AC9f37F51B11B1571ab853bC6f3c8D8407983c",
+    "0x891D34b8381847Bbf99660130CaA84106605d416",
+    "0x8458354710Fc2Ee94542121fD4BAfd89431A2439",
+    "0x9AAe2F3145739065C6c67126c84882C929A69718",
+    "0xc053B64622f33A9B1083726749808d0A75b06aAE",
+    "0xbd98b1dc637727d7E751eEA0910085570A0fE260",
+    "0xF5a40A74bF78150b41177FBf7476d395900d28d6",
+    "0x8D82E06A97A72efA3bbc950168C5eD37313306F5",
+    "0xA1a9Ba822A5a8212D9C867C593fb15390Cce25A8",
+    "0xCEe77A776ae25Ac824aDde366f923F4d1dd88942",
+    "0x55fdb0B48086E9B1158FbFcB792415c8E276440a",
+    "0xd40D1BFC948C358E121eBC3341Ab06fFa5b5078C",
+    "0x83c5a0de369b45475d9fCC9fE1E858Ded76b8Ad2",
+    "0x6EADE8eD7e7527208F468Ea8d401AFC7F4E48592",
+    "0xB47832cA65E661b2b54dE39F24775C1d82C216f9",
+    "0xc54F5C4EEf9864e534d4CB25774B65c072Bb3578",
+    "0xAA9530d112237E67fC05bcA732c2c83D37cCd043",
+    "0x1B762FfC9cd93Ff6567DBEf6dbdb9946e12bB8D4",
+    "0xb304D23D8d28311902d627FAfa836f38AbBA2619",
+    "0x585F65c47884DB61a40Ccd77B7b6bAF5656195d2",
+    "0x4AE807dC0a6fAF6D6919d256c97c6b346Fc2eA0e",
+    "0xe94e74ee94703bf3D1E6D87e2D40010a81d7B344",
+    "0xF0065e7b055674e9ee7A4d2611321098857eAD41",
+    "0x4D720811E22aCC49Ae8f6C3B205A6906685bF337",
+    "0x30b4a5477314e3FbD0C22D6Afcd71EeCF4d9D22F",
+    "0xC360Ebb06b20c80b8557F3E591089AfF7D58FDfE",
+    "0x18388030512c997a1F5dba692Dd682297c387c19",
+    "0xE50eea550234ed6473B94a8c8ABe87433B490fdb",
+    "0x41b1Eb0ED9C0f3889c44a0bFA1f37Fe1049ED66b",
+    "0x72Fd94d00e47c20fa0f5D3007675347454F1f362",
+    "0x9F5B15E7a52c21f907Ba7919588A2361B16102a1",
+    "0xdD26d8aFb083967d443207ac8DE5aA79f11F6394",
+    "0x9D4A68B0cF208fA876FeecD23200AdFe1e96ceb2",
+    "0x82e7dF25Ca0897dE1211E2ef558194b8Df79c769",
+    "0x2007b11534986215fAd4e8e8f6FaD05D1f5aECCA",
+    "0xF17ab7eBd06F948F06Cf91f5a593cEe5537F2dF0",
+    "0x2932b1982A51B21eF5B9674e2131C7E3D779C8fC",
+    "0x55157CE961289Be90889EbcD7A0494b438A1ff6D",
+    "0x3547325936551a0870b1895c44a1129c937dBa29",
+    "0x193174a271e672e073b7db3f50432acd30b16541",
+    "0x0D976b442a57592c02e7f777769Ad5c5FDA55aec",
+    "0x1AA35008940d41C806735BeCe70D65Cd8d734E07",
+    "0x7aD5c2ab51ff3e15C33eBd4752975d99FC2B74C6",
+    "0x38E7B29f0aBB28ddd8Db78327d306020fc444BCB",
+    "0x60D3D24D6f487d988EdE2e02231c93086196Bb8d",
+    "0x9bc7B805D0733D465771407727d7a7E1c2a68d95",
+    "0x4F528d19e4f58be03Ed9942bF3c81BD31905f72b",
+    "0x7d18987c7440378Ea5B70dbeC93e6413F4B6475A",
+    "0x72c5CE3604AD1c923Ce80E1F93911Dc641Ec9657",
+    "0xC38f858Af24Ec67DDB72A9c06ac17D31a1186DCe",
+    "0xe4A991D6299a18FFbD62E3d0920Cd14442AD4e43",
+    "0xbB0BA407EF5d9321A6E6d3d06e5fAb20332AbE65",
+    "0x11C8921a1f37fe15615d001e8dDc3883f2232294",
+    "0x6475C3D676163526e79B8C55C29425b79FbFf11e",
+    "0xeA310C966D3Ff5E09c65487f1763B21361Eb71eF",
+    "0xD9546a960A2F2feb20bab7c575e594DFfA84829e",
+    "0x1D53ee199a2de2b88Ee3D6f31A207099aAdbc90b",
+    "0x6fd760fCfC39853e49BcDb2FA4151071FA6a880c",
+    "0x1AF4d6B128efe916715d1a59Dd3f9e3C52a53491",
+    "0xFa47aC6D263Be7720622DCecE4aB6d957D5ebB98",
+    "0x8e0CD8e1A0839fc8F363B2419e4DD260c1245a44",
+    "0x0047EE5cb94C5b75f9C2F840fC9b13986cCA30d9",
+    "0x9cdec6eEe54044735Ab461c81bda831d3178da19",
+    "0x7000494797f73caD75d5193Ad60a11897C60c8EB",
+    "0xcE64877901d356c743F6D9011ec5790D4C9334B9",
+    "0xd2CDE3A0e267b7f8CFf979ee9dC5Ae0A8304ec10",
+    "0x610EA6094b468Ca44FaDf1019Fc00C3398e09Ae1",
+    "0x3012238be3Df637A39313d33AD8C58961D89ae7e",
+    "0x097c7d176060B32B61bb6228A1Ee1B31800EfADD",
+    "0xF2AF75D7eE4b6FBB5439f14a2B67221e0558b249",
+    "0x080F1aC53aAE4540c6FD91428F92D7251e00BD75",
+    "0xf5Fa0f11364Cc7695c2E8c3F7C9a7dE3EA2483f1",
+    "0x61c23b9aEfec72218b962C345cA6a77EF830B969",
+    "0x867B333D1f9267acfCbF6d1e889a0878FABa6EC0",
+    "0x6f2C90Ef4fff089B0a0C46B50c351BcA6Cc73a77",
+    "0x7d2c28AeB837ec51dC135B73E06899aab1c2d47d",
+    "0x4906E9763e9216DE2A7FDcA30301562729bf5925",
+    "0x15d290A3c91F40C55DBD53c041417984dBf7B82F",
+    "0xB55be0842771DaAB7Fbf6662C1bcD0B512D9A20a",
+    "0xf7EF41D25b6A15b875e80178d795ae6cB0DFFfCf",
+    "0xeCEaF08623810A6a436a6473783942eA81015A3F",
+    "0x3d7214e94598E4C9775028464cA604B11c7e5aF6",
+    "0x25712BFf8C173b8FE722F7c4BbB2e3Fd7909C4c0",
+    "0xAB212F685Db2e49b86A14eCE9C939c18dE4756CE",
+    "0x3dF5713C35f8ac9bc4d01E1423Acf58C7Abe13D4",
+    "0x7A5eEd39e14323C2043547D3988c69245B098A6c",
+    "0x05adeB8936A94609269e9F82860ED526F6ddAd76",
+    "0xa133a6098b7836B465EbA82EdbE953c95eE3c846",
+    "0x52E99C9456F25713b516373b038877B44Ce64c23",
+    "0xd354e5E3D1C6072bd91Ed0A1708f68AAe31a6c45",
+    "0xD1F34408E2DFf664784bce283Dbf3Da7A57f3e0e",
+    "0xE995ECf510B80862d58a64321aFd1163C621Fb09",
+    "0xfc8fA0AcCDdACd77a2f55F24be3926BA73571dC9",
+    "0x6E50AcE3e34e64657B958737AefDFEE02a31ba87",
+    "0xdd1B42B76686f62B0832c56a7874d4f3acbA0dfc",
+    "0x2876ACC8d1137f65416a29Dc929CDE5025a60652",
+    "0xDA4A2CdE9027CC2f9E5192820f708c56058663d9",
+    "0xb1cDeafE3cb54Ba352ad5EEbA94fC3D1B857Cb54",
+    "0xf504b0cd5fCA98D44d11Fb4933dD657622E3d4F7",
+    "0x57674Fd04E528fE4551fdA0D1768D2A1cBfeCd90",
+    "0x86223fc26babD6aD01F6cEF834eA83D1F14B6607",
+    "0x40FF0fF419a16F394365c518Af3974dA413dCc9F",
+    "0x2E3183f7C86ba6f2041a09Fb39e3Bed30D1853D4",
+    "0x4539346ce664aCe234847929aABDc1268Bc5857F",
+    "0x2F05faDc0cF390A50b56728c2dC039515052b091",
+    "0x810bA213487CE7AbAEAB9c5cEb23647854cd7F59",
+    "0xBDB977681B1aEbabdcC4a1E12048a203BDA6a2EC",
+    "0xF9191c7A6893a30d664B401a1479c1427B50b1C1",
+    "0x4CC70fea460F39819D5B0b06c1Ed26903178D9F1",
+    "0xE9De5DEAE786b101B9E50AAb8607A4E4a7fEaCbb",
+    "0xA5894f85B5BB5145a69c3f4a41BB4918a8463701",
+    "0xdaf37Af0efE463c5b5a6F08e03D877C4Cb3bFcF8",
+    "0xF13a17b7a2E3d5cCb440E5975146CaD3a77Ee253",
+    "0xd4992e8f3429D4d46fd6b5024f2192307Bf4a1C3",
+    "0xc0fc5aB6ecEc76A8409704Af5a30ce9d09AE988A",
+    "0x000B690BcF9D811FB9b33062D3348401D4000000",
+    "0xD401ED05CFF62251FBB1931861154Ab576f6Fd62",
+    "0x18d62FcD05b4DAB4263964Ab8684a90DBc11f064",
+    "0xfcb229Dd39db86241c9d0646B0A946C2bA42A9FB",
+    "0x9301a92eB60f47E0B333F6369585e0D13308BCA2",
+    "0x4F6D6bD7A51A1ff765e47A1F8Bc686b23beAaD1A",
+    "0xE072B01b91c8683e8AE978CbE7A3475876b02bbA",
+    "0x424448257dc91a3ee396d3d92eFFcEEFd4a518b4",
+    "0x4fB1d49284277d17F0bA9E172728dc3B3939995E",
+    "0xb259D08bbbEFa0B0F842e1c7E55fd473D8A9B93e",
+    "0x73946e6f1FaE55Ac732B0cF333cE22905F02b736",
+    "0xcD71cefacD381ba5604FCfDf72c8E23f4176c54d",
+    "0x27A5B39CAA5B878d9ca8Ef818701F48e4a980d2F",
+    "0x3C7eFC2126bA3a807E934241994Fb1F50d39ccC9",
+    "0xbeAe4B03BD832c9b6Ce3535E413a0Dca2c67B32e",
+    "0x500CFE4a07A2e2CA1bE92e422480656828888888",
+    "0xD94352b8CaF80d1024895adEDcFE229292ddFe3F",
+    "0x94742ca3600EBAE3c6123b115F0B37c973504Ba7",
+    "0x1C594d01f5bc4E8e7f68CaD4e36F3D4458C7d90c",
+    "0xBB55338f7A1226c06Fb5e0400c931b8Dc571d56E",
+    "0x6710609bE803775eCAC43C1C9813665ac2b2AD9F",
+    "0x9f02CD48B13e68ba2a1B7a020Fb72b0FF83e451b",
+    "0x55D15d2fbcd34c5ef9ecd930D632e0EA6c4cbc43",
+    "0x696ACE9B81950f7dE354b4F89559750a5bd1a1B6",
+    "0xf3A590902168c03B74E4A81Aa4e7D155bd02bd79",
+    "0x5E26c4ea85e80Da76617f16F157e4e6842a0f199",
+    "0xF1A026eE954121542b993fc1a18E86C8e336EF3D",
+    "0x413aE09476f782dB25784BdcB649973cB6566189",
+    "0xEdAF4ab981D33074224727599DDc42f793206005",
+    "0xF3a1DE82E6c6BC165F02750565f895A36Fc3b907",
+    "0xa5404762d0b5f2A9D07A8E7cc3d60F32A45C6391",
+    "0x138843062b5cA5A88a9b32680bD944E143183c6e",
+    "0x27bA37d658C9C1e7f3175D662fDb21f0ae347871",
+    "0x13C8055eF2290D1B6450c7b88e8C3c546f6FC3c7",
+    "0x6B9d8fC149c4B6245e2643523De659263f4856db",
+    "0x4Dfa5839d55990f028B47e37A645407d894B8E69",
+    "0x02cdfCE8bDd8c781A0E3Dc3751887F3D3C7F3943",
+    "0x622Ea0Ed8960D802281E22f57C0dFdc491df8a60",
+    "0x4a28610aFd8b4ffB57C2E7462C808A78DDC3D1Ac",
+    "0xe7f47f321be9C323c2e123E846F370Cfda7Ae4Cf",
+    "0x4c195deE5182665bc7CDec36ab1c7fC72783713C",
+    "0x1515c970987472F91D62b079628436885D6e3e1b",
+    "0xFef111675e9D81C0c3e9faeBD598bC284CDF69B3",
+    "0x9804678e106a54AadcfBdc15944bb604c6E5494D",
+    "0xf832d42d9ce5EAe55a9ee7A1B72e4a426486E65d",
+    "0x6B4576fBCEA136213df7696741132caD36fc7C25",
+    "0xD567f2837a11143D04Be36ae287e120594e94758",
+    "0x5d6B919508D22Af991Bd670152fC238524Df1f75",
+    "0xC6afd2E633783cC5a844698B5f3A8EFFCDfe82d2",
+    "0xC9ae708b6E43263b0e725e311FeC52b2Fd2ed5E9",
+    "0x260054a8994720cfE3c25B7cA214e43B65A843F3",
+    "0x33F16D2D1E898CDB8F99Ff8Df3e21D995e298f6A",
+    "0x6b87e06E370FE84c581a878138C6fa51C285980a",
+    "0xb365112C16570FD249E972e1CE91f621b090495A",
+    "0xd6EE0AdE2bC25E932Ea300741B55dF50Ca3B6EE8",
+    "0x568F17c81841bc4fadDb15AecABD58d80eBD21aF",
+    "0xb9537fCD97762ad98c060363768B877A0d7Eba32",
+    "0x9fb1699aA343440161753582294D0eDb1E853f0F",
+    "0x6795e9d7D58e1BCA3EAa19e484745E2E0d4Cc895",
+    "0xd52fdCE0972d70aB08407368E037f0d93eBe48cF",
+    "0xBF2f8E4Da00cd04bBDb08E545704d7d21F75D3c5",
+    "0x8260f328083942B8A1Ce35BC28CC374E35659475"
+  ],
+  "contractState": {
+    "totalRaised": "34.103816",
+    "isGoalReached": true,
+    "isFundraisingFinalized": false,
+    "daoTokenAddress": null
+  },
+  "stats": {
+    "totalContributors": 108,
+    "totalWhitelistedAddresses": 271
+  },
+  "scannedBlocks": {
+    "startBlock": 29232874,
+    "endBlock": 29825785
+  }
+}
