@@ -122,7 +122,13 @@ contract TokenLaunchFactory is Ownable, ReentrancyGuard {
      */
     function launchToken(
         LaunchConfig memory config
-    ) external payable nonReentrant returns (LaunchResult memory result) {
+    )
+        external
+        payable
+        nonReentrant
+        onlyOwner
+        returns (LaunchResult memory result)
+    {
         require(
             msg.value >= config.liquidityEthAmount + config.initialBuyEthAmount,
             "Insufficient ETH"
