@@ -1,9 +1,9 @@
 {
-  "deployedAt": "2025-05-15T06:16:01.111Z",
+  "deployedAt": "2025-05-15T06:36:47.816Z",
   "contracts": {
-    "factory": "0xAd0744AeB860Fd6751903Dd1EEA805fa35c9973a",
+    "factory": "0xadfD5968EDdC5cf0D1E7957E311312e7Ee6f5306",
     "token": {
-      "address": "0x711a64215742393aDAD8714bfE30dE2c7836A1E5",
+      "address": "0x2499BeBA4EE8d4D1D134577F6A03915d8009143e",
       "name": "Token",
       "symbol": "TTKK",
       "totalSupply": "1000000000",
@@ -11,7 +11,7 @@
       "distributionAmount": "900000000.0"
     },
     "distributor": {
-      "address": "0x267Ad45d02736914f8A2F536a52d02b61Ca9774A",
+      "address": "0x6DEAd71bDE6228F12Ee5dE973d6A75439A0F20E4",
       "totalAirdrop1": "200000000.0",
       "totalAirdrop2": "15147411.0",
       "totalClaim": "684852589.0",
@@ -20,17 +20,17 @@
       "claimRecipients": 107
     },
     "pool": {
-      "address": "0x3F1231512A1C135324293683b09309c7EBC0418F",
-      "token0": "0x4200000000000000000000000000000000000006",
-      "token1": "0x711a64215742393aDAD8714bfE30dE2c7836A1E5",
+      "address": "0xF666C17C16898A40224aB0f4A7Fbc2fAcBbc40Ef",
+      "token0": "0x2499BeBA4EE8d4D1D134577F6A03915d8009143e",
+      "token1": "0x4200000000000000000000000000000000000006",
       "fee": "10000",
-      "positionTokenId": "22030"
+      "positionTokenId": "3030981"
     }
   },
-  "deployer": "0xbD9a8096E32a688C68232Ec8797a682ff6A44638",
+  "deployer": "0x9d2f303BF3a4760887cc5a0678E347d69CE5D294",
   "transaction": {
-    "hash": "0x728639770729a141f1be43186df9fba27957f85a168ea96e9a70687c6a9bcae3",
-    "block": 25760735,
-    "gasUsed": "15615924"
+    "hash": "0x8c635dd7933bd7025c4b73eefd1842b87fe47332c517528144bcab1766ceabe5",
+    "block": 30250829,
+    "gasUsed": "15642596"
   }
 }

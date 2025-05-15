@@ -77,10 +77,10 @@ contract TokenLaunchFactory is Ownable, ReentrancyGuard {
     // Direcciones de Uniswap V3 en Base
     address public constant WETH = 0x4200000000000000000000000000000000000006;
     address constant UNISWAP_V3_FACTORY =
-        0x4752ba5DBc23f44D87826276BF6Fd6b1C372aD24;
+        0x33128a8fC17869897dcE68Ed026d694621f6FDfD;
     address constant POSITION_MANAGER =
-        0x27F971cb582BF9E50F397e4d29a5C7A34f11faA2;
-    address constant SWAP_ROUTER = 0x94cC0AaC535CCDB3C01d6787D6413C739ae12bc4;
+        0x03a520b32C04BF3bEEf7BEb72E919cf822Ed34f1;
+    address constant SWAP_ROUTER = 0x2626664c2603336E57B271c5C0b26F421741e481;
 
     uint24 constant FEE_TIER = 10000; // 1%
 

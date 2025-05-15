@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const userAddress = "0xB9c8C6982ce138426928C074dB99016cc565BD20";
+const userAddress = "0x1BC0A4aE691647f528bE54b844d4f3344170a01a";
 
 async function main() {
   const distributorAddress = process.env.DISTRIBUTOR_ADDRESS;
