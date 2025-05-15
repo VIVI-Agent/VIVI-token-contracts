@@ -4,6 +4,8 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
+const userAddress = "0xB9c8C6982ce138426928C074dB99016cc565BD20";
+
 async function main() {
   const distributorAddress = process.env.DISTRIBUTOR_ADDRESS;
   if (!distributorAddress) {
@@ -11,7 +13,6 @@ async function main() {
   }
 
   // Obtener la dirección del usuario desde argumentos de línea de comandos
-  const userAddress = process.argv[2];
   if (!userAddress || !ethers.isAddress(userAddress)) {
     throw new Error(
       "Por favor proporciona una dirección válida como argumento: npm run claim-for 0x..."
@@ -62,17 +63,24 @@ async function main() {
   );
 
   // Validaciones
+  /*
   if (!stats._claimingEnabled) {
     throw new Error("El claiming no está habilitado");
   }
+  */
+
+  /*
 
   if (userInfo.allocation === 0n) {
     throw new Error("El usuario no tiene allocation");
   }
+  */
+  /*
 
   if (userInfo.claimed) {
     throw new Error("El usuario ya reclamó sus tokens");
   }
+  */
 
   if (userInfo.distType !== 0n) {
     // 0 = CLAIM, 1 = AIRDROP

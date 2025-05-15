@@ -4,9 +4,9 @@ import dotenv from "dotenv";
 dotenv.config();
 
 async function main() {
-  const distributorAddress = process.env.TOKEN_DISTRIBUTOR_ADDRESS;
+  const distributorAddress = process.env.DISTRIBUTOR_ADDRESS;
   if (!distributorAddress) {
-    throw new Error("TOKEN_DISTRIBUTOR_ADDRESS no encontrada en .env.local");
+    throw new Error("DISTRIBUTOR_ADDRESS no encontrada en .env.local");
   }
 
   console.log(
