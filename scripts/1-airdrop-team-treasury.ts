@@ -1,3 +1,4 @@
+// scripts/1-airdrop-team-treasury.ts
 import { ethers } from "hardhat";
 import * as fs from "fs";
 import * as path from "path";
@@ -9,13 +10,13 @@ dotenv.config();
 const BATCH_SIZE = 200;
 
 async function main() {
-  const distributorAddress = process.env.TOKEN_DISTRIBUTOR_ADDRESS;
+  const distributorAddress = process.env.DISTRIBUTOR_ADDRESS;
   if (!distributorAddress) {
-    throw new Error("TOKEN_DISTRIBUTOR_ADDRESS no encontrada en .env.local");
+    throw new Error("DISTRIBUTOR_ADDRESS no encontrada en .env.local");
   }
 
   console.log(
-    `🚁 Ejecutando airdrop desde el distribuidor: ${distributorAddress}\n`
+    `🚁 Ejecutando airdrop Team/Treasury desde el distribuidor: ${distributorAddress}\n`
   );
 
   const [signer] = await ethers.getSigners();
@@ -27,9 +28,7 @@ async function main() {
   // Verificar estado
   const stats = await distributor.getStats();
   if (!stats._finalized) {
-    throw new Error(
-      "Las asignaciones no están finalizadas. Ejecuta primero 2-load-wl.ts"
-    );
+    throw new Error("Las asignaciones no están finalizadas");
   }
 
   console.log("📊 Estado actual:");
@@ -47,57 +46,76 @@ async function main() {
     )} tokens`
   );
 
-  // Leer direcciones de airdrop
-  const airdropFile = path.join(__dirname, "test_airdrop_distribution.csv");
+  // Leer direcciones de airdrop desde airdrop-1.csv
+  const airdropFile = path.join(__dirname, "airdrop-1.csv");
   const airdropCsv = fs.readFileSync(airdropFile, "utf-8");
   const airdropRecords = parse(airdropCsv, {
     columns: true,
     skip_empty_lines: true,
   });
 
-  console.log(`\n📊 Direcciones de airdrop: ${airdropRecords.length}`);
+  console.log(
+    `\n📋 Team/Treasury Airdrop: ${airdropRecords.length} direcciones`
+  );
 
-  // Obtener solo las direcciones
+  // Mostrar detalle de las direcciones
+  console.log("\nDirecciones a procesar:");
+  for (const record of airdropRecords) {
+    console.log(
+      `   ${record.address}: ${record.tokens} tokens (${
+        record.type || "team/treasury"
+      })`
+    );
+  }
+
+  // Obtener solo las direcciones para el batch
   const airdropAddresses = airdropRecords.map(
     (r: { address: any }) => r.address
   );
 
-  // Ejecutar en batches
-  let processedCount = 0;
-  let batchCount = 0;
-  let successCount = 0;
+  // Ejecutar airdrop en batch
+  console.log(
+    `\n📤 Procesando airdrop de ${airdropAddresses.length} direcciones...`
+  );
 
-  for (let i = 0; i < airdropAddresses.length; i += BATCH_SIZE) {
-    const batch = airdropAddresses.slice(i, i + BATCH_SIZE);
-    batchCount++;
+  try {
+    const tx = await distributor.executeInitialAirdrop(airdropAddresses);
+    console.log(`   Tx enviada: ${tx.hash}`);
 
+    const receipt = await tx.wait();
     console.log(
-      `\n📤 Procesando batch ${batchCount} (${batch.length} direcciones)...`
+      `   ✅ Airdrop team/treasury confirmado en bloque ${receipt?.blockNumber}`
     );
 
-    try {
-      const tx = await distributor.executeInitialAirdrop(batch);
-      console.log(`   Tx enviada: ${tx.hash}`);
-
-      const receipt = await tx.wait();
-      console.log(`   ✅ Batch ${batchCount} confirmado`);
-
-      processedCount += batch.length;
-      successCount += batch.length;
-    } catch (error: any) {
-      console.error(`   ❌ Error en batch ${batchCount}:`, error.message);
+    // Buscar eventos en los logs
+    let totalAirdropped = 0n;
+    if (receipt?.logs) {
+      for (const log of receipt.logs) {
+        try {
+          const parsedLog = distributor.interface.parseLog(log);
+          if (parsedLog?.name === "TokensAirdropped") {
+            const amount = parsedLog.args.amount;
+            totalAirdropped += amount;
+            console.log(
+              `   ✓ ${parsedLog.args.user}: ${ethers.formatEther(
+                amount
+              )} tokens`
+            );
+          }
+        } catch (e) {
+          // Ignorar logs que no son del contrato
+        }
+      }
     }
-  }
 
-  // Mostrar detalles del airdrop
-  console.log("\n📋 Detalle del airdrop:");
-  for (const record of airdropRecords) {
-    const amount = ethers.parseEther(record.tokens.toString());
     console.log(
-      `   ${record.address}: ${ethers.formatEther(amount)} tokens (${
-        record.type || "airdrop"
-      })`
+      `\n💰 Total distribuido en este airdrop: ${ethers.formatEther(
+        totalAirdropped
+      )} tokens`
     );
+  } catch (error: any) {
+    console.error(`   ❌ Error en airdrop:`, error.message);
+    throw error;
   }
 
   // Verificar estadísticas finales
@@ -120,10 +138,7 @@ async function main() {
     )} tokens`
   );
 
-  console.log("\n✅ Airdrop completado!");
-  console.log(`   Direcciones procesadas: ${processedCount}`);
-  console.log(`   Exitosas: ${successCount}`);
-  console.log(`   Fallidas: ${processedCount - successCount}`);
+  console.log("\n✅ Airdrop Team/Treasury completado!");
 }
 
 main()

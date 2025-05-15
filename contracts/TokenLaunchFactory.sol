@@ -238,8 +238,8 @@ contract TokenLaunchFactory is Ownable, ReentrancyGuard {
             distributor.executeInitialAirdrop(config.airdropAddresses);
         }
 
-        // 14. Transferir ownership del distribuidor
-        distributor.transferOwnership(config.teamAddress);
+        // 13. Transferir ownership del distribuidor
+        distributor.transferOwnership(msg.sender);
 
         emit TokenLaunched(
             result.token,

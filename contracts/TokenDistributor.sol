@@ -180,6 +180,28 @@ contract TokenDistributor is Ownable(msg.sender), ReentrancyGuard {
     }
 
     /**
+     * @dev Owner puede ejecutar claim para un usuario específico
+     * @param user Dirección del usuario para el cual ejecutar el claim
+     */
+    function claimFor(address user) external onlyOwner nonReentrant {
+        require(claimingEnabled, "Claiming disabled");
+        require(allocations[user] > 0, "No allocation");
+        require(!hasClaimed[user], "Already claimed");
+        require(
+            distributionType[user] == DistributionType.CLAIM,
+            "Not eligible for claim"
+        );
+
+        uint256 amount = allocations[user];
+        hasClaimed[user] = true;
+        totalClaimed += amount;
+        totalDistributed += amount;
+
+        token.safeTransfer(user, amount);
+        emit TokensClaimed(user, amount);
+    }
+
+    /**
      * @dev Ejecutar airdrop inmediato (llamado por el factory)
      */
     function executeInitialAirdrop(
