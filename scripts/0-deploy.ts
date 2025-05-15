@@ -1,4 +1,4 @@
-// scripts/deploy-factory-complete.ts
+// scripts/0-deploy.ts
 import { ethers, run } from "hardhat";
 import * as fs from "fs";
 import csv from "csv-parse/sync";
@@ -39,12 +39,18 @@ async function main() {
   const LIQUIDITY_PERCENTAGE = 10; // 10% para liquidez
   const DISTRIBUTION_PERCENTAGE = 90; // 90% para distribución
 
-  // Leer CSVs
+  // Leer CSVs - Ahora son 3 archivos
   console.log("📂 Leyendo archivos CSV...");
-  const airdropData = readCSV("airdrop-addresses.csv");
+  const airdrop1Data = readCSV("airdrop-1.csv");
+  const airdrop2Data = readCSV("airdrop-2.csv");
   const claimData = readCSV("claim-addresses.csv");
 
-  console.log(`   ✅ ${airdropData.length} direcciones para airdrop`);
+  console.log(
+    `   ✅ ${airdrop1Data.length} direcciones en airdrop1 (team/treasury)`
+  );
+  console.log(
+    `   ✅ ${airdrop2Data.length} direcciones en airdrop2 (especiales)`
+  );
   console.log(`   ✅ ${claimData.length} direcciones para claim`);
 
   // Deploy del TokenLaunchFactory
@@ -65,6 +71,16 @@ async function main() {
     (totalSupplyBN * BigInt(DISTRIBUTION_PERCENTAGE)) / 100n;
 
   // Configuración del lanzamiento
+  // Combinar ambos archivos de airdrop
+  const allAirdropAddresses = [
+    ...airdrop1Data.map((row: CSVRow) => row.address),
+    ...airdrop2Data.map((row: CSVRow) => row.address),
+  ];
+  const allAirdropAmounts = [
+    ...airdrop1Data.map((row: CSVRow) => ethers.parseEther(row.amount)),
+    ...airdrop2Data.map((row: CSVRow) => ethers.parseEther(row.amount)),
+  ];
+
   const launchConfig = {
     tokenName: TOKEN_NAME,
     tokenSymbol: TOKEN_SYMBOL,
@@ -73,18 +89,20 @@ async function main() {
     liquidityEthAmount: ethers.parseEther(process.env.LIQUIDITY_ETH || "0.1"),
     initialBuyEthAmount: ethers.parseEther(process.env.INITIAL_BUY || "0.01"),
     teamAddress: deployer.address,
-    // Direcciones y cantidades para airdrop
-    airdropAddresses: airdropData.map((row: CSVRow) => row.address),
-    airdropAmounts: airdropData.map((row: CSVRow) =>
-      ethers.parseEther(row.amount)
-    ),
+    // Direcciones y cantidades para airdrop (combinando airdrop1 y airdrop2)
+    airdropAddresses: allAirdropAddresses,
+    airdropAmounts: allAirdropAmounts,
     // Direcciones y cantidades para claim
     claimAddresses: claimData.map((row: CSVRow) => row.address),
     claimAmounts: claimData.map((row: CSVRow) => ethers.parseEther(row.amount)),
   };
 
   // Validar distribución total
-  const totalAirdrop = airdropData.reduce(
+  const totalAirdrop1 = airdrop1Data.reduce(
+    (sum: bigint, row: CSVRow) => sum + ethers.parseEther(row.amount),
+    0n
+  );
+  const totalAirdrop2 = airdrop2Data.reduce(
     (sum: bigint, row: CSVRow) => sum + ethers.parseEther(row.amount),
     0n
   );
@@ -92,11 +110,19 @@ async function main() {
     (sum: bigint, row: CSVRow) => sum + ethers.parseEther(row.amount),
     0n
   );
+  const totalAirdrop = totalAirdrop1 + totalAirdrop2;
   const totalDistribution = totalAirdrop + totalClaim;
 
   console.log("\n📊 Validando distribución:");
   console.log(
-    `   Airdrop total: ${ethers.formatEther(totalAirdrop)} ${TOKEN_SYMBOL}`
+    `   Airdrop1 (team/treasury): ${ethers.formatEther(
+      totalAirdrop1
+    )} ${TOKEN_SYMBOL}`
+  );
+  console.log(
+    `   Airdrop2 (especiales): ${ethers.formatEther(
+      totalAirdrop2
+    )} ${TOKEN_SYMBOL}`
   );
   console.log(
     `   Claim total: ${ethers.formatEther(totalClaim)} ${TOKEN_SYMBOL}`
@@ -109,7 +135,10 @@ async function main() {
   console.log(
     `   Supply disponible: ${ethers.formatEther(
       distributionTokens
-    )} ${TOKEN_SYMBOL}`
+    )} ${TOKEN_SYMBOL} (90%)`
+  );
+  console.log(
+    `   Liquidez: ${ethers.formatEther(liquidityTokens)} ${TOKEN_SYMBOL} (10%)`
   );
 
   if (totalDistribution > distributionTokens) {
@@ -118,8 +147,8 @@ async function main() {
 
   // Calcular ETH necesario
   const requiredEth =
-    ethers.parseEther(process.env.LIQUIDITY_ETH || "1") +
-    ethers.parseEther(process.env.INITIAL_BUY || "0.1");
+    ethers.parseEther(process.env.LIQUIDITY_ETH || "0.1") +
+    ethers.parseEther(process.env.INITIAL_BUY || "0.01");
 
   // Lanzar el token
   console.log("\n🚀 Lanzando token con configuración completa...");
@@ -218,9 +247,11 @@ async function main() {
       },
       distributor: {
         address: distributor,
-        totalAirdrop: ethers.formatEther(totalAirdrop),
+        totalAirdrop1: ethers.formatEther(totalAirdrop1),
+        totalAirdrop2: ethers.formatEther(totalAirdrop2),
         totalClaim: ethers.formatEther(totalClaim),
-        airdropRecipients: airdropData.length,
+        airdrop1Recipients: airdrop1Data.length,
+        airdrop2Recipients: airdrop2Data.length,
         claimRecipients: claimData.length,
       },
       pool: {
@@ -239,8 +270,14 @@ async function main() {
     },
   };
 
+  // Crear directorio deployment si no existe
+  const deploymentDir = path.join(__dirname, "deployment");
+  if (!fs.existsSync(deploymentDir)) {
+    fs.mkdirSync(deploymentDir, { recursive: true });
+  }
+
   fs.writeFileSync(
-    path.join(__dirname, "deployment/deployment-info.json"),
+    path.join(deploymentDir, "deployment-info.json"),
     JSON.stringify(deploymentInfo, null, 2)
   );
   console.log("\n📄 Información guardada en deployment-info.json");
@@ -273,8 +310,6 @@ POSITION_TOKEN_ID=${positionTokenId}
   console.log(`   Pool: ${pool}`);
   console.log(`   Distribuidor: ${distributor}`);
   console.log(`   Position NFT ID: ${positionTokenId}`);
-  console.log("\n🔗 Pool en Basescan:");
-  console.log(`   https://basescan.org/address/${pool}`);
 }
 
 function readCSV(filename: string): CSVRow[] {
@@ -288,7 +323,14 @@ function readCSV(filename: string): CSVRow[] {
 
 async function verifyContracts(result: DeploymentResult, config: any) {
   console.log("\n📝 Verificando contratos en Basescan...");
-
+  const tokenConstructorArgs = [
+    config.tokenName,
+    config.tokenSymbol,
+    config.totalSupply,
+    result.factory, // liquidityRecipient (el factory recibe para liquidez)
+    config.liquidityTokenAmount,
+    result.distributor, // distributorRecipient
+  ];
   try {
     // Verificar Factory
     console.log("Verificando TokenLaunchFactory...");
@@ -299,33 +341,51 @@ async function verifyContracts(result: DeploymentResult, config: any) {
     });
     console.log("✅ Factory verificado");
 
-    console.log("Verificando PlainERC20Factory...");
+    // Esperar un poco más para dar tiempo a Basescan de indexar
+    console.log("\n⏳ Esperando 10 segundos adicionales...");
+    await new Promise((resolve) => setTimeout(resolve, 10000));
+
+    // Verificar Token
+    console.log("\nVerificando Token...");
+
     await run("verify:verify", {
-      address: result.factory,
-      constructorArguments: [],
+      address: result.token,
+      constructorArguments: tokenConstructorArgs,
       contract: "contracts/PlainERC20Factory.sol:PlainERC20Factory",
     });
-    console.log("✅ PlainERC20Factory verificado");
+    console.log("✅ Token verificado");
 
-    console.log("Verificando TokenDistributor...");
+    // Verificar Distributor
+    console.log("\nVerificando TokenDistributor...");
+    const distributorConstructorArgs = [
+      result.factory, // owner inicial (el factory)
+    ];
+
     await run("verify:verify", {
-      address: result.factory,
-      constructorArguments: [],
+      address: result.distributor,
+      constructorArguments: distributorConstructorArgs,
       contract: "contracts/TokenDistributor.sol:TokenDistributor",
     });
-    console.log("✅ TokenDistributor verificado");
+    console.log("✅ Distributor verificado");
 
-    // Los demás contratos son creados por el factory
-    // y pueden necesitar verificación manual
-    console.log(
-      "\n⚠️  Nota: Token y Distribuidor fueron desplegados por el factory."
-    );
-    console.log("    Pueden requerir verificación manual en Basescan.");
+    console.log("\n✅ Todos los contratos verificados exitosamente!");
   } catch (error: any) {
     if (error.message.includes("already verified")) {
       console.log("✅ Contrato ya verificado");
+    } else if (error.message.includes("does not have bytecode")) {
+      console.log("⚠️  Esperando que el contrato sea indexado por Basescan...");
+      console.log("    Intenta verificar manualmente más tarde.");
     } else {
-      throw error;
+      console.error("❌ Error en verificación:", error.message);
+      console.log("\n💡 Tip: Si la verificación falla, puedes intentar:");
+      console.log("    1. Ejecutar el script de verificación por separado");
+      console.log("    2. Verificar manualmente en Basescan");
+      console.log("    3. Usar el siguiente comando para cada contrato:");
+      console.log(
+        `       npx hardhat verify --network base ${
+          result.token
+        } ${tokenConstructorArgs.join(" ")}`
+      );
     }
   }
 }

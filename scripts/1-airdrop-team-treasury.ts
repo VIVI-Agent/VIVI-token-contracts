@@ -7,8 +7,6 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const BATCH_SIZE = 200;
-
 async function main() {
   const distributorAddress = process.env.DISTRIBUTOR_ADDRESS;
   if (!distributorAddress) {
@@ -46,7 +44,7 @@ async function main() {
     )} tokens`
   );
 
-  // Leer direcciones de airdrop desde airdrop-1.csv
+  // Leer direcciones de airdrop desde airdrop1.csv
   const airdropFile = path.join(__dirname, "airdrop-1.csv");
   const airdropCsv = fs.readFileSync(airdropFile, "utf-8");
   const airdropRecords = parse(airdropCsv, {
@@ -62,9 +60,7 @@ async function main() {
   console.log("\nDirecciones a procesar:");
   for (const record of airdropRecords) {
     console.log(
-      `   ${record.address}: ${record.tokens} tokens (${
-        record.type || "team/treasury"
-      })`
+      `   ${record.address}: ${record.amount} tokens (team/treasury)`
     );
   }
 

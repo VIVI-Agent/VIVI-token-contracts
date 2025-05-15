@@ -233,12 +233,27 @@ contract TokenLaunchFactory is Ownable, ReentrancyGuard {
             );
         }
 
-        // 12. Ejecutar airdrops inmediatos
-        if (config.airdropAddresses.length > 0) {
-            distributor.executeInitialAirdrop(config.airdropAddresses);
+        // 12. Transferir cualquier balance residual al msg.sender
+        // Transferir tokens residuales
+        uint256 tokenBalance = IERC20(result.token).balanceOf(address(this));
+        if (tokenBalance > 0) {
+            IERC20(result.token).transfer(msg.sender, tokenBalance);
         }
 
-        // 13. Transferir ownership del distribuidor
+        // Transferir WETH residual
+        uint256 wethBalance = IERC20(WETH).balanceOf(address(this));
+        if (wethBalance > 0) {
+            IWETH(WETH).transfer(msg.sender, wethBalance);
+        }
+
+        // Transferir ETH nativo residual (si hubiera)
+        uint256 ethBalance = address(this).balance;
+        if (ethBalance > 0) {
+            (bool success, ) = msg.sender.call{value: ethBalance}("");
+            require(success, "ETH transfer failed");
+        }
+
+        // 13. Transferir ownership del distribuidor (ya existe)
         distributor.transferOwnership(msg.sender);
 
         emit TokenLaunched(
@@ -290,6 +305,24 @@ contract TokenLaunchFactory is Ownable, ReentrancyGuard {
         // Configurar allocations
         distributor.setAllocations(allAddresses, allAmounts, allTypes);
     }
+    /**
+     * @dev Función de emergencia para recuperar tokens atrapados
+     * Solo puede ser llamada por el owner
+     */
+    function emergencyWithdraw(address token) external onlyOwner {
+        if (token == address(0)) {
+            // Retirar ETH
+            uint256 balance = address(this).balance;
+            require(balance > 0, "No ETH to withdraw");
+            (bool success, ) = owner().call{value: balance}("");
+            require(success, "ETH transfer failed");
+        } else {
+            // Retirar ERC20
+            uint256 balance = IERC20(token).balanceOf(address(this));
+            require(balance > 0, "No tokens to withdraw");
+            IERC20(token).transfer(owner(), balance);
+        }
+    }
 
     /**
      * @dev Calcula sqrtPriceX96 basado en las cantidades
@@ -329,5 +362,15 @@ contract TokenLaunchFactory is Ownable, ReentrancyGuard {
             z = (x / z + z) / 2;
         }
         return y;
+    }
+
+    // También necesitas añadir receive() para poder recibir ETH
+    receive() external payable {}
+
+    function withdrawETH() external onlyOwner {
+        uint256 balance = address(this).balance;
+        require(balance > 0, "No ETH to withdraw");
+        (bool success, ) = owner().call{value: balance}("");
+        require(success, "ETH transfer failed");
     }
 }

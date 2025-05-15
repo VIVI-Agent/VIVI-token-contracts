@@ -1,0 +1,36 @@
+{
+  "deployedAt": "2025-05-15T05:16:21.618Z",
+  "contracts": {
+    "factory": "0x3F4BBe1f0a88680DA48349Bc38F305497fff971C",
+    "token": {
+      "address": "0x388BaEa7c2739038f85d5fEc8fd0b454AF951895",
+      "name": "Token",
+      "symbol": "TTKK",
+      "totalSupply": "1000000000",
+      "liquidityAmount": "100000000.0",
+      "distributionAmount": "900000000.0"
+    },
+    "distributor": {
+      "address": "0xcF94b5C07f819024ec2134418892AE16820290d5",
+      "totalAirdrop1": "200000000.0",
+      "totalAirdrop2": "15147411.0",
+      "totalClaim": "684852589.0",
+      "airdrop1Recipients": 2,
+      "airdrop2Recipients": 2,
+      "claimRecipients": 107
+    },
+    "pool": {
+      "address": "0x120f8346dE84b96282b9DD14985Cd420d903C051",
+      "token0": "0x388BaEa7c2739038f85d5fEc8fd0b454AF951895",
+      "token1": "0x4200000000000000000000000000000000000006",
+      "fee": "10000",
+      "positionTokenId": "22024"
+    }
+  },
+  "deployer": "0xbD9a8096E32a688C68232Ec8797a682ff6A44638",
+  "transaction": {
+    "hash": "0x76820b36eab86f78382f31ff53528c85031d4ef950bb84a082b420187cdb2fe1",
+    "block": 25758944,
+    "gasUsed": "15632788"
+  }
+}
