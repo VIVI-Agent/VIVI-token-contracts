@@ -72,10 +72,8 @@ async function main() {
 
   // Deploy del Factory
   console.log("\n📦 Desplegando Factory...");
-  const TokenLaunchFactory = await ethers.getContractFactory(
-    "TokenLaunchFactory"
-  );
-  const factory = await TokenLaunchFactory.deploy();
+  const VIVIFactory = await ethers.getContractFactory("VIVIFactory");
+  const factory = await VIVIFactory.deploy();
   await factory.waitForDeployment();
 
   const factoryAddress = await factory.getAddress();

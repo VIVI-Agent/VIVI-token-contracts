@@ -25,7 +25,7 @@ interface DeploymentResult {
 async function main() {
   const [deployer] = await ethers.getSigners();
 
-  console.log("🚀 Desplegando TokenLaunchFactory y lanzando token...");
+  console.log("🚀 Desplegando VIVIFactory y lanzando token...");
   console.log("🔑 Deployer:", deployer.address);
 
   const balance = await ethers.provider.getBalance(deployer.address);
@@ -53,16 +53,14 @@ async function main() {
   );
   console.log(`   ✅ ${claimData.length} direcciones para claim`);
 
-  // Deploy del TokenLaunchFactory
-  console.log("\n📡 Desplegando TokenLaunchFactory...");
-  const TokenLaunchFactory = await ethers.getContractFactory(
-    "TokenLaunchFactory"
-  );
-  const factory = await TokenLaunchFactory.deploy();
+  // Deploy del VIVIFactory
+  console.log("\n📡 Desplegando VIVIFactory...");
+  const VIVIFactory = await ethers.getContractFactory("VIVIFactory");
+  const factory = await VIVIFactory.deploy();
   await factory.waitForDeployment();
   const factoryAddress = await factory.getAddress();
 
-  console.log("✅ TokenLaunchFactory desplegado en:", factoryAddress);
+  console.log("✅ VIVIFactory desplegado en:", factoryAddress);
 
   // Preparar configuración del lanzamiento
   const totalSupplyBN = ethers.parseEther(TOTAL_SUPPLY);
@@ -201,7 +199,7 @@ async function main() {
   console.log("\n🔍 Verificando deployment...");
 
   // Verificar token
-  const tokenContract = await ethers.getContractAt("PlainERC20Factory", token);
+  const tokenContract = await ethers.getContractAt("VIVIdotWIN", token);
   const name = await tokenContract.name();
   const symbol = await tokenContract.symbol();
   const totalSupply = await tokenContract.totalSupply();
@@ -211,7 +209,7 @@ async function main() {
 
   // Verificar distribuidor
   const distributorContract = await ethers.getContractAt(
-    "TokenDistributor",
+    "VIVIDistro",
     distributor
   );
   const configuredToken = await distributorContract.token();
@@ -295,8 +293,8 @@ POSITION_TOKEN_ID=${positionTokenId}
   console.log("📄 Direcciones guardadas en .env.local");
 
   // Verificar contratos en Basescan (si no es localhost)
-  console.log("\n🔍 Esperando 30 segundos antes de verificar...");
-  await new Promise((resolve) => setTimeout(resolve, 30000));
+  console.log("\n🔍 Esperando 1 segundos antes de verificar...");
+  await new Promise((resolve) => setTimeout(resolve, 1000));
 
   try {
     await verifyContracts(deploymentResult, launchConfig);
@@ -332,41 +330,37 @@ async function verifyContracts(result: DeploymentResult, config: any) {
     result.distributor, // distributorRecipient
   ];
   try {
-    // Verificar Factory
-    console.log("Verificando TokenLaunchFactory...");
-    await run("verify:verify", {
-      address: result.factory,
-      constructorArguments: [],
-      contract: "contracts/TokenLaunchFactory.sol:TokenLaunchFactory",
-    });
-    console.log("✅ Factory verificado");
-
     // Esperar un poco más para dar tiempo a Basescan de indexar
-    console.log("\n⏳ Esperando 10 segundos adicionales...");
-    await new Promise((resolve) => setTimeout(resolve, 10000));
 
     // Verificar Token
     console.log("\nVerificando Token...");
-
     await run("verify:verify", {
       address: result.token,
       constructorArguments: tokenConstructorArgs,
-      contract: "contracts/PlainERC20Factory.sol:PlainERC20Factory",
+      contract: "contracts/VIVIdotWIN.sol:VIVIdotWIN",
     });
     console.log("✅ Token verificado");
 
     // Verificar Distributor
-    console.log("\nVerificando TokenDistributor...");
+    console.log("\nVerificando VIVIDistro...");
     const distributorConstructorArgs = [
       result.factory, // owner inicial (el factory)
     ];
-
     await run("verify:verify", {
       address: result.distributor,
       constructorArguments: distributorConstructorArgs,
-      contract: "contracts/TokenDistributor.sol:TokenDistributor",
+      contract: "contracts/VIVIDistro.sol:VIVIDistro",
     });
     console.log("✅ Distributor verificado");
+
+    // Verificar Factory
+    console.log("Verificando VIVIFactory...");
+    await run("verify:verify", {
+      address: result.factory,
+      constructorArguments: [],
+      contract: "contracts/VIVIFactory.sol:VIVIFactory",
+    });
+    console.log("✅ Factory verificado");
 
     console.log("\n✅ Todos los contratos verificados exitosamente!");
   } catch (error: any) {

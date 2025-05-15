@@ -18,7 +18,7 @@ async function main() {
 
   const [signer] = await ethers.getSigners();
   const distributor = await ethers.getContractAt(
-    "TokenDistributor",
+    "VIVIDistro",
     distributorAddress
   );
 
