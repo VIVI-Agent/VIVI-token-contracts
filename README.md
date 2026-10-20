@@ -1,14 +1,29 @@
-# 🎯 VIVI Contracts.
+# VIVI Token Contracts 🚫 Deprecated
 
-npx hardhat run scripts/0-deploy.ts --network base
+> **Status: Deprecated**  
+> This repository is no longer actively maintained. Kept public for portfolio and historical reference.
 
-- env local to env
-- distro to vercel env
+Hardhat project for the **$VIVI token** and related distribution contracts on **Base**.
 
-npx hardhat run scripts/1-airdrop-team-treasury.ts --network base
+Includes the token, factory, distributor, and deployment / airdrop scripts used during the project lifecycle.
 
-npx hardhat run scripts/2-airdrop-special.ts --network base
+## Main Contracts
 
-npx hardhat run scripts/3-activate-claim.ts --network base
+- `VIVIdotWIN.sol` — Token
+- `VIVIFactory.sol`
+- `VIVIDistro.sol` — Distribution / claim logic
 
-claim with
+## Related Repositories
+
+- Main project overview: [VIVI-Agent/vivi](https://github.com/VIVI-Agent/vivi)
+- Telegram bot: [VIVI-Agent/VIVI-telegram-bot](https://github.com/VIVI-Agent/VIVI-telegram-bot)
+- Swap fee contracts: [VIVI-Agent/VIVI-swap-fee-contract](https://github.com/VIVI-Agent/VIVI-swap-fee-contract)
+
+## Links
+
+- Telegram Bot: [t.me/VIVIBaseBot](https://t.me/VIVIBaseBot)
+- X / Twitter: [@vividotwin](https://x.com/vividotwin)
+
+---
+
+*Part of the VIVI trading agent (2024–2025).*
